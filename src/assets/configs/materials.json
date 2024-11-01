@@ -1,0 +1,537 @@
+{
+    "ingot": {
+        "name": "Слиток",
+        "originalName": "Ingot",
+        "receipt": "casting",
+        "images": [
+            {
+                "metal": "bismuth",
+                "image": {
+                    "source": null,
+                    "path": "/images/b/b6/Grid_Bismuth_Ingot.png"
+                }
+            },
+            {
+                "metal": "tin",
+                "image": {
+                    "source": null,
+                    "path": "/images/f/f8/Grid_Tin_Ingot.png"
+                }
+            },
+            {
+                "metal": "zinc",
+                "image": {
+                    "source": null,
+                    "path": "/images/9/90/Grid_Zinc_Ingot.png"
+                }
+            },
+            {
+                "metal": "copper",
+                "image": {
+                    "source": null,
+                    "path": "/images/3/32/Grid_Copper_Ingot.png"
+                }
+            },
+            {
+                "metal": "bronze",
+                "image": {
+                    "source": null,
+                    "path": "/images/c/ce/Grid_Bronze_Ingot.png"
+                }
+            },
+            {
+                "metal": "bismuth_bronze",
+                "image": {
+                    "source": null,
+                    "path": "/images/f/f7/Grid_Bismuth_Bronze_Ingot.png"
+                }
+            },
+            {
+                "metal": "black_bronze",
+                "image": {
+                    "source": null,
+                    "path": "/images/a/a1/Grid_Black_Bronze_Ingot.png"
+                }
+            },
+            {
+                "metal": "brass",
+                "image": {
+                    "source": null,
+                    "path": "/images/3/3d/Grid_Brass_Ingot.png"
+                }
+            },
+            {
+                "metal": "rose_gold",
+                "image": {
+                    "source": null,
+                    "path": "/images/2/2d/Grid_Rose_Gold_Ingot.png"
+                }
+            },
+            {
+                "metal": "sterling_silver",
+                "image": {
+                    "source": null,
+                    "path": "/images/8/81/Grid_Sterling_Silver_Ingot.png"
+                }
+            },
+            {
+                "metal": "platinum",
+                "image": {
+                    "source": null,
+                    "path": "/images/6/63/Grid_Platinum_Ingot.png"
+                }
+            },
+            {
+                "metal": "wrought_iron",
+                "image": {
+                    "source": null,
+                    "path": "/images/b/bb/Grid_Wrought_Iron_Ingot.png"
+                }
+            },
+            {
+                "metal": "nickel",
+                "image": {
+                    "source": null,
+                    "path": "/images/e/e9/Grid_Nickel_Ingot.png"
+                }
+            },
+            {
+                "metal": "pig_iron",
+                "image": {
+                    "source": null,
+                    "path": "/images/e/ec/Grid_Pig_Iron_Ingot.png"
+                }
+            },
+            {
+                "metal": "steel",
+                "image": {
+                    "source": null,
+                    "path": "/images/b/b3/Grid_Steel_Ingot.png"
+                }
+            },
+            {
+                "metal": "black_steel",
+                "image": {
+                    "source": null,
+                    "path": "/images/7/77/Grid_Black_Steel_Ingot.png"
+                }
+            },
+            {
+                "metal": "blue_steel",
+                "image": {
+                    "source": null,
+                    "path": "/images/6/64/Grid_Blue_Steel_Ingot.png"
+                }
+            },
+            {
+                "metal": "red_steel",
+                "image": {
+                    "source": null,
+                    "path": "/images/8/83/Grid_Red_Steel_Ingot.png"
+                }
+            }
+        ]
+    },
+    "double_ingot": {
+        "name": "Двойной слиток",
+        "originalName": "Double Ingot",
+        "receipt": "weld",
+        "material": "ingot",
+        "images": [
+            {
+                "metal": "bismuth",
+                "image": {
+                    "source": null,
+                    "path": "/images/d/d9/Grid_Bismuth_Double_Ingot.png"
+                }
+            },
+            {
+                "metal": "tin",
+                "image": {
+                    "source": null,
+                    "path": "/images/9/9d/Grid_Tin_Double_Ingot.png"
+                }
+            },
+            {
+                "metal": "zinc",
+                "image": {
+                    "source": null,
+                    "path": "/images/5/59/Grid_Zinc_Double_Ingot.png"
+                }
+            },
+            {
+                "metal": "copper",
+                "image": {
+                    "source": null,
+                    "path": "/images/0/05/Grid_Copper_Double_Ingot.png"
+                }
+            },
+            {
+                "metal": "bronze",
+                "image": {
+                    "source": null,
+                    "path": "/images/b/b2/Grid_Bronze_Double_Ingot.png"
+                }
+            },
+            {
+                "metal": "bismuth_bronze",
+                "image": {
+                    "source": null,
+                    "path": "/images/4/41/Grid_Bismuth_Bronze_Double_Ingot.png"
+                }
+            },
+            {
+                "metal": "black_bronze",
+                "image": {
+                    "source": null,
+                    "path": "/images/c/c6/Grid_Black_Bronze_Ingot_2x.png"
+                }
+            },
+            {
+                "metal": "brass",
+                "image": {
+                    "source": null,
+                    "path": "/images/4/41/Grid_Brass_Double_Ingot.png"
+                }
+            },
+            {
+                "metal": "rose_gold",
+                "image": {
+                    "source": null,
+                    "path": "/images/1/16/Grid_Rose_Gold_Double_Ingot.png"
+                }
+            },
+            {
+                "metal": "sterling_silver",
+                "image": {
+                    "source": null,
+                    "path": "/images/c/c7/Grid_Sterling_Silver_Double_Ingot.png"
+                }
+            },
+            {
+                "metal": "platinum",
+                "image": {
+                    "source": null,
+                    "path": "/images/d/d0/Grid_Platinum_Double_Ingot.png"
+                }
+            },
+            {
+                "metal": "wrought_iron",
+                "image": {
+                    "source": null,
+                    "path": "/images/4/4f/Grid_Wrought_Iron_Double_Ingot.png"
+                }
+            },
+            {
+                "metal": "nickel",
+                "image": {
+                    "source": null,
+                    "path": "/images/3/3e/Grid_Nickel_Ingot_2x.png"
+                }
+            },
+            {
+                "metal": "pig_iron",
+                "image": {
+                    "source": null,
+                    "path": "/images/1/1d/Grid_Pig_Iron_Double_Ingot.png"
+                }
+            },
+            {
+                "metal": "steel",
+                "image": {
+                    "source": null,
+                    "path": "/images/0/0f/Grid_Steel_Double_Ingot.png"
+                }
+            },
+            {
+                "metal": "black_steel",
+                "image": {
+                    "source": null,
+                    "path": "/images/c/ca/Grid_Black_Steel_Double_Ingot.png"
+                }
+            },
+            {
+                "metal": "blue_steel",
+                "image": {
+                    "source": null,
+                    "path": "/images/c/cc/Grid_Blue_Steel_Double_Ingot.png"
+                }
+            },
+            {
+                "metal": "red_steel",
+                "image": {
+                    "source": null,
+                    "path": "/images/4/48/Grid_Red_Steel_Double_Ingot.png"
+                }
+            }
+        ]
+    },
+    "sheet": {
+        "name": "Лист",
+        "originalName": "Sheet",
+        "receipt": "plan",
+        "plan": "sheet",
+        "images": [
+            {
+                "metal": "bismuth",
+                "image": {
+                    "source": null,
+                    "path": "/images/1/10/Grid_Bismuth_Sheet.png"
+                }
+            },
+            {
+                "metal": "tin",
+                "image": {
+                    "source": null,
+                    "path": "/images/a/a1/Grid_Tin_Sheet.png"
+                }
+            },
+            {
+                "metal": "zinc",
+                "image": {
+                    "source": null,
+                    "path": "/images/d/d0/Grid_Zinc_Sheet.png"
+                }
+            },
+            {
+                "metal": "copper",
+                "image": {
+                    "source": null,
+                    "path": "/images/7/7d/Grid_Copper_Sheet.png"
+                }
+            },
+            {
+                "metal": "bronze",
+                "image": {
+                    "source": null,
+                    "path": "/images/4/48/Grid_Bronze_Sheet.png"
+                }
+            },
+            {
+                "metal": "bismuth_bronze",
+                "image": {
+                    "source": null,
+                    "path": "/images/b/b6/Grid_Bismuth_Bronze_Sheet.png"
+                }
+            },
+            {
+                "metal": "black_bronze",
+                "image": {
+                    "source": null,
+                    "path": "/images/0/0f/Grid_Black_Bronze_Sheet.png"
+                }
+            },
+            {
+                "metal": "brass",
+                "image": {
+                    "source": null,
+                    "path": "/images/a/a1/Grid_Brass_Sheet.png"
+                }
+            },
+            {
+                "metal": "rose_gold",
+                "image": {
+                    "source": null,
+                    "path": "/images/6/63/Grid_Rose_Gold_Sheet.png"
+                }
+            },
+            {
+                "metal": "sterling_silver",
+                "image": {
+                    "source": null,
+                    "path": "/images/1/1b/Grid_Sterling_Silver_Sheet.png"
+                }
+            },
+            {
+                "metal": "platinum",
+                "image": {
+                    "source": null,
+                    "path": "/images/5/5e/Grid_Platinum_Sheet.png"
+                }
+            },
+            {
+                "metal": "wrought_iron",
+                "image": {
+                    "source": null,
+                    "path": "/images/1/14/Grid_Wrought_Iron_Sheet.png"
+                }
+            },
+            {
+                "metal": "nickel",
+                "image": {
+                    "source": null,
+                    "path": "/images/e/ec/Grid_Nickel_Sheet.png"
+                }
+            },
+            {
+                "metal": "pig_iron",
+                "image": {
+                    "source": null,
+                    "path": "/images/b/be/Grid_Pig_Iron_Sheet.png"
+                }
+            },
+            {
+                "metal": "steel",
+                "image": {
+                    "source": null,
+                    "path": "/images/6/63/Grid_Steel_Sheet.png"
+                }
+            },
+            {
+                "metal": "black_steel",
+                "image": {
+                    "source": null,
+                    "path": "/images/a/ac/Grid_Black_Steel_Sheet.png"
+                }
+            },
+            {
+                "metal": "blue_steel",
+                "image": {
+                    "source": null,
+                    "path": "/images/8/84/Grid_Blue_Steel_Sheet.png"
+                }
+            },
+            {
+                "metal": "red_steel",
+                "image": {
+                    "source": null,
+                    "path": "/images/4/42/Grid_Red_Steel_Sheet.png"
+                }
+            }
+        ]
+    },
+    "double_sheet": {
+        "name": "Двойной лист",
+        "originalName": "Double Sheet",
+        "receipt": "weld",
+        "material": "sheet",
+        "images": [
+            {
+                "metal": "bismuth",
+                "image": {
+                    "source": null,
+                    "path": "/images/6/62/Grid_Bismuth_Double_Sheet.png"
+                }
+            },
+            {
+                "metal": "tin",
+                "image": {
+                    "source": null,
+                    "path": "/images/8/83/Grid_Tin_Double_Sheet.png"
+                }
+            },
+            {
+                "metal": "zinc",
+                "image": {
+                    "source": null,
+                    "path": "/images/b/bd/Grid_Zinc_Double_Sheet.png"
+                }
+            },
+            {
+                "metal": "copper",
+                "image": {
+                    "source": null,
+                    "path": "/images/0/08/Grid_Copper_Double_Sheet.png"
+                }
+            },
+            {
+                "metal": "bronze",
+                "image": {
+                    "source": null,
+                    "path": "/images/c/c7/Grid_Bronze_Double_Sheet.png"
+                }
+            },
+            {
+                "metal": "bismuth_bronze",
+                "image": {
+                    "source": null,
+                    "path": "/images/f/f9/Grid_Bismuth_Bronze_Double_Sheet.png"
+                }
+            },
+            {
+                "metal": "black_bronze",
+                "image": {
+                    "source": null,
+                    "path": "/images/c/c4/Grid_Black_Bronze_Sheet_2x.png"
+                }
+            },
+            {
+                "metal": "brass",
+                "image": {
+                    "source": null,
+                    "path": "/images/f/fa/Grid_Brass_Double_Sheet.png"
+                }
+            },
+            {
+                "metal": "rose_gold",
+                "image": {
+                    "source": null,
+                    "path": "/images/3/3a/Grid_Rose_Gold_Double_Sheet.png"
+                }
+            },
+            {
+                "metal": "sterling_silver",
+                "image": {
+                    "source": null,
+                    "path": "/images/d/d1/Grid_Sterling_Silver_Double_Sheet.png"
+                }
+            },
+            {
+                "metal": "platinum",
+                "image": {
+                    "source": null,
+                    "path": "/images/1/15/Grid_Platinum_Double_Sheet.png"
+                }
+            },
+            {
+                "metal": "wrought_iron",
+                "image": {
+                    "source": null,
+                    "path": "/images/d/dc/Grid_Wrought_Iron_Double_Sheet.png"
+                }
+            },
+            {
+                "metal": "nickel",
+                "image": {
+                    "source": null,
+                    "path": "/images/c/c3/Grid_Nickel_Sheet_2x.png"
+                }
+            },
+            {
+                "metal": "pig_iron",
+                "image": {
+                    "source": null,
+                    "path": "/images/7/77/Grid_Pig_Iron_Double_Sheet.png"
+                }
+            },
+            {
+                "metal": "steel",
+                "image": {
+                    "source": null,
+                    "path": "/images/3/3d/Grid_Steel_Double_Sheet.png"
+                }
+            },
+            {
+                "metal": "black_steel",
+                "image": {
+                    "source": null,
+                    "path": "/images/e/ee/Grid_Black_Steel_Double_Sheet.png"
+                }
+            },
+            {
+                "metal": "blue_steel",
+                "image": {
+                    "source": null,
+                    "path": "/images/5/51/Grid_Blue_Steel_Double_Sheet.png"
+                }
+            },
+            {
+                "metal": "red_steel",
+                "image": {
+                    "source": null,
+                    "path": "/images/5/50/Grid_Red_Steel_Double_Sheet.png"
+                }
+            }
+        ]
+    }
+}

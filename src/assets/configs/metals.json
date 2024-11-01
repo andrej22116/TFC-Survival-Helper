@@ -1,0 +1,234 @@
+{
+    "bismuth": {
+        "name": "Висмут",
+        "originalName": "Bismuth",
+        "tier": 0,
+        "image": {
+            "source": null,
+            "path": "/images/b/b6/Grid_Bismuth_Ingot.png"
+        }
+    },
+    "tin": {
+        "name": "Олово",
+        "originalName": "Tin",
+        "tier": 0,
+        "image": {
+            "source": null,
+            "path": "/images/f/f8/Grid_Tin_Ingot.png"
+        }
+    },
+    "zinc": {
+        "name": "Цинк",
+        "originalName": "Zinc",
+        "tier": 0,
+        "image": {
+            "source": null,
+            "path": "/images/9/90/Grid_Zinc_Ingot.png"
+        }
+    },
+    "copper": {
+        "name": "Медь",
+        "originalName": "Copper",
+        "tier": 1,
+        "image": {
+            "source": null,
+            "path": "/images/3/32/Grid_Copper_Ingot.png"
+        }
+    },
+    "lead": {
+        "name": "Свинец",
+        "originalName": "Lead",
+        "tier": 2,
+        "image": {
+            "source": null,
+            "path": "/images/a/af/Grid_Lead_Ingot.png"
+        }
+    },
+    "gold": {
+        "name": "Золото",
+        "originalName": "Gold",
+        "tier": 2,
+        "image": {
+            "source": null,
+            "path": "/images/4/40/Grid_Gold_Ingot.png"
+        }
+    },
+    "silver": {
+        "name": "Серебро",
+        "originalName": "Silver",
+        "tier": 2,
+        "image": {
+            "source": null,
+            "path": "/images/c/c4/Grid_Silver_Ingot.png"
+        }
+    },
+    "bronze": {
+        "name": "Бронза",
+        "originalName": "Bronze",
+        "composition": {
+            "copper": [88, 92],
+            "tin": [8, 12]
+        },
+        "tier": 2,
+        "image": {
+            "source": null,
+            "path": "/images/c/ce/Grid_Bronze_Ingot.png"
+        }
+    },
+    "bismuth_bronze": {
+        "name": "Висмутовая бронза",
+        "originalName": "Bismuth Bronze",
+        "composition": {
+            "copper": [50, 65],
+            "zinc": [20, 30],
+            "bismuth": [10, 20]
+        },
+        "tier": 2,
+        "image": {
+            "source": null,
+            "path": "/images/f/f7/Grid_Bismuth_Bronze_Ingot.png"
+        }
+    },
+    "black_bronze": {
+        "name": "Чёрная бронза",
+        "originalName": "Black Bronze",
+        "composition": {
+            "copper": [50, 70],
+            "silver": [10, 25],
+            "gold": [10, 25]
+        },
+        "tier": 2,
+        "image": {
+            "source": null,
+            "path": "/images/a/a1/Grid_Black_Bronze_Ingot.png"
+        }
+    },
+    "brass": {
+        "name": "Латунь",
+        "originalName": "Brass",
+        "composition": {
+            "copper": [70, 80],
+            "zinc": [20, 30]
+        },
+        "tier": 2,
+        "image": {
+            "source": null,
+            "path": "/images/3/3d/Grid_Brass_Ingot.png"
+        }
+    },
+    "rose_gold": {
+        "name": "Розовое золото",
+        "originalName": "Rose Gold",
+        "composition": {
+            "gold": [70, 85],
+            "copper": [15, 30]
+        },
+        "tier": 2,
+        "image": {
+            "source": null,
+            "path": "/images/2/2d/Grid_Rose_Gold_Ingot.png"
+        }
+    },
+    "sterling_silver": {
+        "name": "Серебро 2",
+        "originalName": "Sterling Silver",
+        "composition": {
+            "silver": [60, 80],
+            "copper": [20, 40]
+        },
+        "tier": 2,
+        "image": {
+            "source": null,
+            "path": "/images/8/81/Grid_Sterling_Silver_Ingot.png"
+        }
+    },
+    "platinum": {
+        "name": "Платина",
+        "originalName": "Platinum",
+        "tier": 3,
+        "image": {
+            "source": null,
+            "path": "/images/6/63/Grid_Platinum_Ingot.png"
+        }
+    },
+    "wrought_iron": {
+        "name": "Кованое железо",
+        "originalName": "Wrought Iron",
+        "tier": 3,
+        "image": {
+            "source": null,
+            "path": "/images/b/bb/Grid_Wrought_Iron_Ingot.png"
+        }
+    },
+    "nickel": {
+        "name": "Никель",
+        "originalName": "Nickel",
+        "tier": 4,
+        "image": {
+            "source": null,
+            "path": "/images/e/e9/Grid_Nickel_Ingot.png"
+        }
+    },
+    "pig_iron": {
+        "name": "Чугун",
+        "originalName": "Pig Iron",
+        "tier": 4,
+        "image": {
+            "source": null,
+            "path": "/images/e/ec/Grid_Pig_Iron_Ingot.png"
+        }
+    },
+    "steel": {
+        "name": "Сталь",
+        "originalName": "Steel",
+        "tier": 4,
+        "image": {
+            "source": null,
+            "path": "/images/b/b3/Grid_Steel_Ingot.png"
+        }
+    },
+    "black_steel": {
+        "name": "Чёрная сталь",
+        "originalName": "Black Steel",
+        "composition": {
+            "steel": [50, 70],
+            "nickel": [15, 25],
+            "black_bronze": [15, 25]
+        },
+        "tier": 5,
+        "image": {
+            "source": null,
+            "path": "/images/7/77/Grid_Black_Steel_Ingot.png"
+        }
+    },
+    "blue_steel": {
+        "name": "Синяя сталь",
+        "originalName": "Blue Steel",
+        "composition": {
+            "black_steel": [50, 55],
+            "steel": [20, 25],
+            "bismuth_bronze": [10, 15],
+            "sterling_silver": [10, 15]
+        },
+        "tier": 6,
+        "image": {
+            "source": null,
+            "path": "/images/6/64/Grid_Blue_Steel_Ingot.png"
+        }
+    },
+    "red_steel": {
+        "name": "Красная сталь",
+        "originalName": "Red Steel",
+        "composition": {
+            "black_steel": [50, 55],
+            "steel": [20, 25],
+            "rose_gold": [10, 15],
+            "brass": [10, 15]
+        },
+        "tier": 6,
+        "image": {
+            "source": null,
+            "path": "/images/8/83/Grid_Red_Steel_Ingot.png"
+        }
+    }
+}

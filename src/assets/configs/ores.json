@@ -1,0 +1,483 @@
+{
+    "bismuthinite": {
+        "name": "Висмутинит",
+        "originalName": "Bismuthinite",
+        "metal": "bismuth",
+        "tier": 0,
+        "grades": {
+            "small": {
+                "richness": 5,
+                "image": {
+                    "source": null,
+                    "path": "/images/2/22/Grid_Bismuthinite_%28Small%29.png"
+                }
+            },
+            "poor": {
+                "richness": 10,
+                "image": {
+                    "source": null,
+                    "path": "/images/4/4a/Grid_Bismuthinite_%28Poor%29.png"
+                }
+            },
+            "normal": {
+                "richness": 15,
+                "image": {
+                    "source": null,
+                    "path": "/images/e/ed/Grid_Bismuthinite.png"
+                }
+            },
+            "rich": {
+                "richness": 20,
+                "image": {
+                    "source": null,
+                    "path": "/images/8/8b/Grid_Bismuthinite_%28Rich%29.png"
+                }
+            }
+        },
+        "rocks": []
+    },
+    "cassiterite": {
+        "name": "Касситерит",
+        "originalName": "Cassiterite",
+        "metal": "tin",
+        "tier": 0,
+        "grades": {
+            "small": {
+                "richness": 5,
+                "image": {
+                    "source": null,
+                    "path": "/images/1/15/Grid_Cassiterite_%28Small%29.png"
+                }
+            },
+            "poor": {
+                "richness": 10,
+                "image": {
+                    "source": null,
+                    "path": "/images/2/27/Grid_Cassiterite_%28Poor%29.png"
+                }
+            },
+            "normal": {
+                "richness": 15,
+                "image": {
+                    "source": null,
+                    "path": "/images/6/62/Grid_Cassiterite.png"
+                }
+            },
+            "rich": {
+                "richness": 20,
+                "image": {
+                    "source": null,
+                    "path": "/images/f/f2/Grid_Cassiterite_%28Rich%29.png"
+                }
+            }
+        },
+        "rocks": []
+    },
+    "sphalerite": {
+        "name": "Сфалерит",
+        "originalName": "Sphalerite",
+        "metal": "zinc",
+        "tier": 0,
+        "grades": {
+            "small": {
+                "richness": 5,
+                "image": {
+                    "source": null,
+                    "path": "/images/6/6d/Grid_Sphalerite_%28Small%29.png"
+                }
+            },
+            "poor": {
+                "richness": 10,
+                "image": {
+                    "source": null,
+                    "path": "/images/6/65/Grid_Sphalerite_%28Poor%29.png"
+                }
+            },
+            "normal": {
+                "richness": 15,
+                "image": {
+                    "source": null,
+                    "path": "/images/f/f2/Grid_Sphalerite.png"
+                }
+            },
+            "rich": {
+                "richness": 20,
+                "image": {
+                    "source": null,
+                    "path": "/images/1/17/Grid_Sphalerite_%28Rich%29.png"
+                }
+            }
+        },
+        "rocks": []
+    },
+    "native_copper": {
+        "name": "Самородная медь",
+        "originalName": "Native Copper",
+        "metal": "copper",
+        "tier": 1,
+        "grades": {
+            "small": {
+                "richness": 5,
+                "image": {
+                    "source": null,
+                    "path": "/images/7/71/Grid_Native_Copper_%28Small%29.png"
+                }
+            },
+            "poor": {
+                "richness": 10,
+                "image": {
+                    "source": null,
+                    "path": "/images/0/0c/Grid_Native_Copper_%28Poor%29.png"
+                }
+            },
+            "normal": {
+                "richness": 15,
+                "image": {
+                    "source": null,
+                    "path": "/images/f/fc/Grid_Native_Copper.png"
+                }
+            },
+            "rich": {
+                "richness": 20,
+                "image": {
+                    "source": null,
+                    "path": "/images/d/d7/Grid_Native_Copper_%28Rich%29.png"
+                }
+            }
+        },
+        "rocks": []
+    },
+    "tetrahedrite": {
+        "name": "Тетраэдрит",
+        "originalName": "Tetrahedrite",
+        "metal": "copper",
+        "tier": 1,
+        "grades": {
+            "small": {
+                "richness": 5,
+                "image": {
+                    "source": null,
+                    "path": "/images/8/81/Grid_Tetrahedrite_%28Small%29.png"
+                }
+            },
+            "poor": {
+                "richness": 10,
+                "image": {
+                    "source": null,
+                    "path": "/images/9/94/Grid_Tetrahedrite_%28Poor%29.png"
+                }
+            },
+            "normal": {
+                "richness": 15,
+                "image": {
+                    "source": null,
+                    "path": "/images/4/49/Grid_Tetrahedrite.png"
+                }
+            },
+            "rich": {
+                "richness": 20,
+                "image": {
+                    "source": null,
+                    "path": "/images/6/60/Grid_Tetrahedrite_%28Rich%29.png"
+                }
+            }
+        },
+        "rocks": []
+    },
+    "malachite": {
+        "name": "Малахит",
+        "originalName": "Malachite",
+        "metal": "copper",
+        "tier": 1,
+        "grades": {
+            "small": {
+                "richness": 5,
+                "image": {
+                    "source": null,
+                    "path": "/images/9/9f/Grid_Malachite_%28Small%29.png"
+                }
+            },
+            "poor": {
+                "richness": 10,
+                "image": {
+                    "source": null,
+                    "path": "/images/6/6b/Grid_Malachite_%28Poor%29.png"
+                }
+            },
+            "normal": {
+                "richness": 15,
+                "image": {
+                    "source": null,
+                    "path": "/images/8/8e/Grid_Malachite.png"
+                }
+            },
+            "rich": {
+                "richness": 20,
+                "image": {
+                    "source": null,
+                    "path": "/images/4/41/Grid_Malachite_%28Rich%29.png"
+                }
+            }
+        },
+        "rocks": []
+    },
+    "chalcocite": {
+        "name": "Халькоцит",
+        "originalName": "Chalcocite",
+        "metal": "copper",
+        "tier": 1,
+        "grades": {
+            "small": {
+                "richness": 5,
+                "image": {
+                    "source": null,
+                    "path": "/images/a/a0/Grid_Chalcocite_%28Small%29.png"
+                }
+            },
+            "poor": {
+                "richness": 10,
+                "image": {
+                    "source": null,
+                    "path": "/images/3/3d/Grid_Chalcocite_%28Poor%29.png"
+                }
+            },
+            "normal": {
+                "richness": 15,
+                "image": {
+                    "source": null,
+                    "path": "/images/f/fb/Grid_Chalcocite.png"
+                }
+            },
+            "rich": {
+                "richness": 20,
+                "image": {
+                    "source": null,
+                    "path": "/images/c/c0/Grid_Chalcocite_%28Rich%29.png"
+                }
+            }
+        },
+        "rocks": []
+    },
+    "chalcopyrite": {
+        "name": "Халькопирит",
+        "originalName": "Chalcopyrite",
+        "metal": "copper",
+        "tier": 1,
+        "grades": {
+            "small": {
+                "richness": 5,
+                "image": {
+                    "source": null,
+                    "path": "/images/a/a9/Grid_Chalcopyrite_%28Small%29.png"
+                }
+            },
+            "poor": {
+                "richness": 10,
+                "image": {
+                    "source": null,
+                    "path": "/images/3/33/Grid_Chalcopyrite_%28Poor%29.png"
+                }
+            },
+            "normal": {
+                "richness": 15,
+                "image": {
+                    "source": null,
+                    "path": "/images/2/22/Grid_Chalcopyrite.png"
+                }
+            },
+            "rich": {
+                "richness": 20,
+                "image": {
+                    "source": null,
+                    "path": "/images/6/60/Grid_Chalcopyrite_%28Rich%29.png"
+                }
+            }
+        },
+        "rocks": []
+    },
+    "galena": {
+        "name": "Галенит",
+        "originalName": "Galena",
+        "metal": "lead",
+        "tier": 2,
+        "grades": {
+            "small": {
+                "richness": 5,
+                "image": {
+                    "source": null,
+                    "path": "/images/4/44/Grid_Galena_%28Small%29.png"
+                }
+            },
+            "poor": {
+                "richness": 10,
+                "image": {
+                    "source": null,
+                    "path": "/images/9/99/Grid_Galena_%28Poor%29.png"
+                }
+            },
+            "normal": {
+                "richness": 15,
+                "image": {
+                    "source": null,
+                    "path": "/images/d/d9/Grid_Galena.png"
+                }
+            },
+            "rich": {
+                "richness": 20,
+                "image": {
+                    "source": null,
+                    "path": "/images/0/0c/Grid_Galena_%28Rich%29.png"
+                }
+            }
+        },
+        "rocks": []
+    },
+    "native_gold": {
+        "name": "Самородное золото",
+        "originalName": "Native Gold",
+        "metal": "gold",
+        "tier": 2,
+        "grades": {
+            "small": {
+                "richness": 1,
+                "image": {
+                    "source": null,
+                    "path": "/images/f/fb/Grid_Native_Gold_%28Small%29.png"
+                }
+            },
+            "poor": {
+                "richness": 2,
+                "image": {
+                    "source": null,
+                    "path": "/images/0/0a/Grid_Native_Gold_%28Poor%29.png"
+                }
+            },
+            "normal": {
+                "richness": 4,
+                "image": {
+                    "source": null,
+                    "path": "/images/b/b0/Grid_Native_Gold.png"
+                }
+            },
+            "rich": {
+                "richness": 6,
+                "image": {
+                    "source": null,
+                    "path": "/images/f/f5/Grid_Native_Gold_%28Rich%29.png"
+                }
+            }
+        },
+        "rocks": []
+    },
+    "native_silver": {
+        "name": "Самородное серебро",
+        "originalName": "Native Silver",
+        "metal": "silver",
+        "tier": 2,
+        "grades": {
+            "small": {
+                "richness": 5,
+                "image": {
+                    "source": null,
+                    "path": "/images/0/0f/Grid_Native_Silver_%28Small%29.png"
+                }
+            },
+            "poor": {
+                "richness": 10,
+                "image": {
+                    "source": null,
+                    "path": "/images/d/dc/Grid_Native_Silver_%28Poor%29.png"
+                }
+            },
+            "normal": {
+                "richness": 15,
+                "image": {
+                    "source": null,
+                    "path": "/images/4/41/Grid_Native_Silver.png"
+                }
+            },
+            "rich": {
+                "richness": 20,
+                "image": {
+                    "source": null,
+                    "path": "/images/1/18/Grid_Native_Silver_%28Rich%29.png"
+                }
+            }
+        },
+        "rocks": []
+    },
+    "native_platinum": {
+        "name": "Самородная платина",
+        "originalName": "Native Platinum",
+        "metal": "platinum",
+        "tier": 3,
+        "grades": {
+            "small": {
+                "richness": 5,
+                "image": {
+                    "source": null,
+                    "path": "/images/8/81/Grid_Native_Platinum_%28Small%29.png"
+                }
+            },
+            "poor": {
+                "richness": 10,
+                "image": {
+                    "source": null,
+                    "path": "/images/e/e8/Grid_Native_Platinum_%28Poor%29.png"
+                }
+            },
+            "normal": {
+                "richness": 15,
+                "image": {
+                    "source": null,
+                    "path": "/images/3/32/Grid_Native_Platinum.png"
+                }
+            },
+            "rich": {
+                "richness": 20,
+                "image": {
+                    "source": null,
+                    "path": "/images/e/e8/Grid_Native_Platinum_%28Rich%29.png"
+                }
+            }
+        },
+        "rocks": []
+    },
+    "garnierite": {
+        "name": "Гарниерит",
+        "originalName": "Garnierite",
+        "metal": "nickel",
+        "tier": 4,
+        "grades": {
+            "small": {
+                "richness": 5,
+                "image": {
+                    "source": null,
+                    "path": "/images/a/a4/Grid_Garnierite_%28Small%29.png"
+                }
+            },
+            "poor": {
+                "richness": 10,
+                "image": {
+                    "source": null,
+                    "path": "/images/5/59/Grid_Garnierite_%28Poor%29.png"
+                }
+            },
+            "normal": {
+                "richness": 15,
+                "image": {
+                    "source": null,
+                    "path": "/images/a/a5/Grid_Garnierite.png"
+                }
+            },
+            "rich": {
+                "richness": 20,
+                "image": {
+                    "source": null,
+                    "path": "/images/b/b9/Grid_Garnierite_%28Rich%29.png"
+                }
+            }
+        },
+        "rocks": []
+    }
+}
