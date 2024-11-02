@@ -24,12 +24,18 @@ const planableMaterials = computed(() => {
         .map(material => {
             const metalKey = material.metals ? material.metals[0] : entityStore.metals[0].key;
             const materialImage = material.images[metalKey];
-            const plan = material.getPlan();
             const targetMaterial = material.sourceMaterial;
-            const targetImage = targetMaterial.images[metalKey];
+            const sourceMaterialImage = targetMaterial.images[metalKey];
             return {
-                target: targetImage,
-                plan,
+                material: sourceMaterialImage,
+                plans: [
+                    material.getPlan(-15),
+                    material.getPlan(-7),
+                    material.getPlan(-2),
+                    material.getPlan(-1),
+                    material.getPlan(),
+                    material.getPlan(1),
+                ],
                 result: materialImage,
             }
         });
@@ -39,7 +45,7 @@ console.log(planableMaterials);
 </script>
 
 <template>
-    <PlanRecipe v-for="recipe of planableMaterials" :target="recipe.target" :plan="recipe.plan" :result="recipe.result"/>
+    <PlanRecipe v-for="recipe of planableMaterials" :material="recipe.material" :plans="recipe.plans" :result="recipe.result"/>
   <WelcomeItem>
     <template #icon>
       <DocumentationIcon />
