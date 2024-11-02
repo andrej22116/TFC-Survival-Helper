@@ -1,0 +1,1 @@
+export const PLAN_SEARCH_DEEP_LIMIT = 6;
