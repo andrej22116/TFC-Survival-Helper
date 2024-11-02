@@ -5,9 +5,44 @@ import ToolingIcon from './icons/IconTooling.vue'
 import EcosystemIcon from './icons/IconEcosystem.vue'
 import CommunityIcon from './icons/IconCommunity.vue'
 import SupportIcon from './icons/IconSupport.vue'
+import {useEntityStore} from "@/stores/entity.js";
+import {computed} from "vue";
+import RECEIPT from "@/constants/receipt.js";
+import PlanRecipe from "@/components/recipe/PlanRecipe.vue";
+
+const entityStore = useEntityStore();
+if (!entityStore.isReady && !entityStore.loading && !entityStore.error) {
+    entityStore.loadFromConfigs();
+}
+
+const planableMaterials = computed(() => {
+    if (!entityStore.isReady) {
+        return [];
+    }
+
+    return Object.entries(entityStore.materials)
+        .map(([,material]) => material)
+        .filter(material => material.receipt === RECEIPT.PLAN)
+        .map(material => {
+            const metalKey = material.metals ? material.metals[0] : entityStore.metals[Object.keys(entityStore.metals)[0]]?.key;
+            const materialImage = material.images[metalKey];
+            const planTemplate = entityStore.forging.planTemplates[material.key];
+            const plan = entityStore.forging.planBuilder.build(planTemplate, 0);
+            const targetMaterial = entityStore.materials[material.material];
+            const targetImage = targetMaterial.images[metalKey];
+            return {
+                target: targetImage,
+                plan,
+                result: materialImage,
+            }
+        });
+});
+
+console.log(planableMaterials);
 </script>
 
 <template>
+    <PlanRecipe v-for="recipe of planableMaterials" :target="recipe.target" :plan="recipe.plan" :result="recipe.result"/>
   <WelcomeItem>
     <template #icon>
       <DocumentationIcon />
