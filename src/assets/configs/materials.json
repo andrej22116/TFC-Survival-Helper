@@ -271,6 +271,7 @@
         "originalName": "Sheet",
         "receipt": "plan",
         "plan": "sheet",
+        "material": "double_ingot",
         "images": [
             {
                 "metal": "bismuth",
@@ -530,6 +531,88 @@
                 "image": {
                     "source": null,
                     "path": "/images/5/50/Grid_Red_Steel_Double_Sheet.png"
+                }
+            }
+        ]
+    },
+    "sword": {
+        "name": "Меч",
+        "originalName": "Sword",
+        "receipt": "plan",
+        "material": "ingot",
+        "metals": [
+            "copper",
+            "bronze",
+            "bismuth_bronze",
+            "black_bronze",
+            "wrought_iron",
+            "steel",
+            "black_steel",
+            "blue_steel",
+            "red_steel"
+        ],
+        "images": [
+            {
+                "metal": "copper",
+                "image": {
+                    "source": null,
+                    "path": "/images/d/db/Grid_Copper_Sword.png"
+                }
+            },
+            {
+                "metal": "bronze",
+                "image": {
+                    "source": null,
+                    "path": "/images/6/69/Grid_Bronze_Sword.png"
+                }
+            },
+            {
+                "metal": "bismuth_bronze",
+                "image": {
+                    "source": null,
+                    "path": "/images/5/51/Grid_Bismuth_Bronze_Sword.png"
+                }
+            },
+            {
+                "metal": "black_bronze",
+                "image": {
+                    "source": null,
+                    "path": "/images/b/b7/Grid_Black_Bronze_Sword.png"
+                }
+            },
+            {
+                "metal": "wrought_iron",
+                "image": {
+                    "source": null,
+                    "path": "/images/a/af/Grid_Wrought_Iron_Sword.png"
+                }
+            },
+            {
+                "metal": "steel",
+                "image": {
+                    "source": null,
+                    "path": "/images/a/ad/Grid_Steel_Sword.png"
+                }
+            },
+            {
+                "metal": "black_steel",
+                "image": {
+                    "source": null,
+                    "path": "/images/6/69/Grid_Black_Steel_Sword.png"
+                }
+            },
+            {
+                "metal": "blue_steel",
+                "image": {
+                    "source": null,
+                    "path": "/images/2/25/Grid_Blue_Steel_Sword.png"
+                }
+            },
+            {
+                "metal": "red_steel",
+                "image": {
+                    "source": null,
+                    "path": "/images/a/aa/Grid_Red_Steel_Sword.png"
                 }
             }
         ]

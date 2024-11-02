@@ -45,3 +45,18 @@ export const makeTfcNgImgUrl = path => makeUrl(EXTERNAL_SOURCE_URL_TFC_NG, path)
  * @returns {string}
  */
 export const makeVanillaImgUrl = path => makeUrl(EXTERNAL_SOURCE_URL_VANILLA, path);
+
+/**
+ *
+ * @param {{source: string|null|undefined, path: string}} configImage
+ * @returns {string}
+ */
+export const makeImageUrl = configImage => {
+    if (!configImage || !configImage.path) {
+        return '';
+    }
+
+    switch (configImage.source) {
+        default: return makeTfcImgUrl(configImage.path);
+    }
+}

@@ -1,27 +1,37 @@
 {
     "actions": {
-        "hit_light": {
-            "power": -3,
-            "image": {
-                "source": null,
-                "path": "/images/7/7c/Grid_Anvil_Hit_Light.png"
+        "hit": [
+            {
+                "name": "Слабый удар",
+                "originalName": "Light Hit",
+                "power": -3,
+                "image": {
+                    "source": null,
+                    "path": "/images/7/7c/Grid_Anvil_Hit_Light.png"
+                }
+            },
+            {
+                "name": "Средний удар",
+                "originalName": "Medium Hit",
+                "power": -6,
+                "image": {
+                    "source": null,
+                    "path": "/images/b/b1/Grid_Anvil_Hit_Medium.png"
+                }
+            },
+            {
+                "name": "Сильный удар",
+                "originalName": "Heavy hit",
+                "power": -9,
+                "image": {
+                    "source": null,
+                    "path": "/images/f/fb/Grid_Anvil_Hit_Heavy.png"
+                }
             }
-        },
-        "hit_medium": {
-            "power": -6,
-            "image": {
-                "source": null,
-                "path": "/images/b/b1/Grid_Anvil_Hit_Medium.png"
-            }
-        },
-        "hit_heavy": {
-            "power": -9,
-            "image": {
-                "source": null,
-                "path": "/images/f/fb/Grid_Anvil_Hit_Heavy.png"
-            }
-        },
+        ],
         "draw": {
+            "name": "Протянуть",
+            "originalName": "Draw",
             "power": -15,
             "image": {
                 "source": null,
@@ -29,6 +39,8 @@
             }
         },
         "punch": {
+            "name": "Штамповать",
+            "originalName": "Punch",
             "power": 2,
             "image": {
                 "source": null,
@@ -36,6 +48,8 @@
             }
         },
         "bend": {
+            "name": "Изогнуть",
+            "originalName": "Bend",
             "power": 7,
             "image": {
                 "source": null,
@@ -43,6 +57,8 @@
             }
         },
         "upset": {
+            "name": "Обжать",
+            "originalName": "Upset",
             "power": 13,
             "image": {
                 "source": null,
@@ -50,6 +66,8 @@
             }
         },
         "shrink": {
+            "name": "Усадить",
+            "originalName": "Shrink",
             "power": 16,
             "image": {
                 "source": null,
@@ -147,6 +165,18 @@
             "entry": 0,
             "material": "double_sheet",
             "actions": ["shrink", "bend", "bend"]
+        },
+        "refined_iron_bloom": {
+            "entry": 0,
+            "material": "raw_iron_bloom",
+            "static_actions": ["shrink", "shrink", "shrink", "shrink", "shrink", "shrink", "shrink"],
+            "actions": ["hit", "hit", "hit"]
+        },
+        "iron_bloom": {
+            "entry": 0,
+            "material": "refined_iron_bloom",
+            "static_actions": ["shrink", "shrink", "shrink", "shrink", "shrink"],
+            "actions": ["hit", "punch"]
         }
     }
 }
