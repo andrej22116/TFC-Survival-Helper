@@ -1,7 +1,13 @@
 import { ref, computed } from 'vue'
 import { defineStore } from 'pinia'
 import {fetchAllConfigs} from "@/utils/config/fetch.js";
-import {mapForgingConfig, mapMaterialsConfig, mapMetalsConfig, mapOresConfig} from "@/utils/config/map.js";
+import {
+    mapForgingConfig,
+    mapImagesConfig,
+    mapMaterialsConfig,
+    mapMetalsConfig,
+    mapOresConfig
+} from "@/utils/config/map.js";
 import {
     mergeMaterialsWithMaterials,
     mergeMaterialsWithPlanTemplates,
@@ -13,6 +19,7 @@ export const useEntityStore = defineStore('entity', () => {
     const materialMap = ref(null);
     const metalMap = ref(null);
     const oreMap = ref(null);
+    const imageMap = ref(null);
     const isReady = ref(false);
     const loading = ref(false);
     const error = ref(false);
@@ -47,6 +54,8 @@ export const useEntityStore = defineStore('entity', () => {
             materialMap.value = mapMaterialsConfig(configs.materials);
             metalMap.value = mapMetalsConfig(configs.metals);
             oreMap.value = mapOresConfig(configs.ores);
+            oreMap.value = mapOresConfig(configs.ores);
+            imageMap.value = mapImagesConfig(configs.images);
 
             mergeMetalsWithOres(metalMap.value, oreMap.value);
             mergeMaterialsWithMaterials(materialMap.value);
@@ -65,6 +74,7 @@ export const useEntityStore = defineStore('entity', () => {
         materialMap,
         materials,
         metalMap,
+        imageMap,
         metals,
         oreMap,
         ores,

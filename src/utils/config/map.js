@@ -4,6 +4,7 @@ import PlanTemplate from "@/entities/plan/PlanTemplate.js";
 import Material from "@/entities/Material.js";
 import Metal from "@/entities/Metal.js";
 import Ore from "@/entities/Ore.js";
+import ItemImage from "@/entities/image/ItemImage.js";
 
 export const mapForgingConfig = configs => {
     const actionMap = new ActionMap(configs.actions);
@@ -54,3 +55,13 @@ export const mapOresConfig = configs => {
             ])
     );
 };
+
+export const mapImagesConfig = configs => {
+    return Object.fromEntries(
+        Object.entries(configs)
+            .map(([key, configImage]) => [
+                key,
+                new ItemImage({configImage})
+            ])
+    );
+}
