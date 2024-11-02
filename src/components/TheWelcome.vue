@@ -20,15 +20,12 @@ const planableMaterials = computed(() => {
         return [];
     }
 
-    return Object.entries(entityStore.materials)
-        .map(([,material]) => material)
-        .filter(material => material.receipt === RECEIPT.PLAN)
+    return entityStore.materials.filter(material => material.receipt === RECEIPT.PLAN)
         .map(material => {
-            const metalKey = material.metals ? material.metals[0] : entityStore.metals[Object.keys(entityStore.metals)[0]]?.key;
+            const metalKey = material.metals ? material.metals[0] : entityStore.metals[0].key;
             const materialImage = material.images[metalKey];
-            const planTemplate = entityStore.forging.planTemplates[material.key];
-            const plan = entityStore.forging.planBuilder.build(planTemplate, 0);
-            const targetMaterial = entityStore.materials[material.material];
+            const plan = material.getPlan();
+            const targetMaterial = material.sourceMaterial;
             const targetImage = targetMaterial.images[metalKey];
             return {
                 target: targetImage,

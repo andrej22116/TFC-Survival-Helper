@@ -12,7 +12,7 @@ export const mapForgingConfig = configs => {
         Object.entries(configs.plans)
             .map(([key, planConfig]) => [
                 key,
-                new PlanTemplate(key, planConfig, actionMap)
+                new PlanTemplate(key, planConfig, actionMap, planBuilder)
             ])
     );
 

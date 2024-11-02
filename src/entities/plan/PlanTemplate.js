@@ -1,11 +1,12 @@
 export default class PlanTemplate {
-    constructor(key, planConfig, actionMap) {
+    constructor(key, planConfig, actionMap, planBuilder) {
         const {material, actions, static_actions} = planConfig || {};
 
         this.key = key;
         this.material = material;
         this.actions = actions;
         this.actionMap = actionMap;
+        this.planBuider = planBuilder;
 
         if (!Array.isArray(actions) || actions.length > 3) {
             this.planWay = null;
@@ -31,6 +32,10 @@ export default class PlanTemplate {
         }
 
         return this._makeSimilarWays();
+    }
+
+    build(startOffset = 0) {
+        return this.planBuider.build(this, startOffset);
     }
 
     _makeWayForTwoItems(actions) {

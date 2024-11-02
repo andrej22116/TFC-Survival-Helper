@@ -14,5 +14,15 @@ export default class Metal {
         this.originalName = originalName;
         this.tier = tier;
         this.image = new ItemImage({configImage: image, alt: name});
+
+        this.ores = [];
+    }
+
+    /**
+     * @param {Ore} ore
+     */
+    addOre(ore) {
+        this.ores.push(ore);
+        ore.setMetal(this);
     }
 }

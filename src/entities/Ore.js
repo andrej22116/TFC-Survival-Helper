@@ -1,4 +1,3 @@
-import ItemImage from "@/entities/image/ItemImage.js";
 import OreGrade from "@/entities/OreGrade.js";
 
 export default class Ore {
@@ -14,7 +13,7 @@ export default class Ore {
         this.key = key;
         this.name = name;
         this.originalName = originalName;
-        this.metal = metal;
+        this.metalName = metal;
         this.tier = tier;
         this.grades = Object.fromEntries(
             Object.entries(grades)
@@ -23,5 +22,13 @@ export default class Ore {
                     new OreGrade(key, configOreGrade)
                 ])
         );
+    }
+
+    /**
+     * @param {Metal} metal
+     */
+    setMetal(metal) {
+        this.metal = metal;
+        this.metalName = metal.name;
     }
 }
