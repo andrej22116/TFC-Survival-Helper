@@ -46,9 +46,9 @@ export default class Material {
      */
     getImageForMetal(metal) {
         if (metal instanceof Metal) {
-            return this.metals[metal.key] || null;
+            return this.images[metal.key] || null;
         } else if (typeof metal === 'string') {
-            return this.metals[metal] || null;
+            return this.images[metal] || null;
         }
 
         return null;
