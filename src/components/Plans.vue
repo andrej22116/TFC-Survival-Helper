@@ -1,12 +1,17 @@
 <script setup>
 import {useEntityStore} from "@/stores/entity.js";
-import {computed} from "vue";
+import {computed, ref} from "vue";
 import RECEIPT from "@/constants/receipt.js";
 import PlanRecipe from "@/components/recipe/PlanRecipe/PlanRecipe.vue";
 
 const entityStore = useEntityStore();
 if (!entityStore.isReady && !entityStore.loading && !entityStore.error) {
     entityStore.loadFromConfigs();
+}
+
+const activeMaterial = ref(null);
+function setActiveMaterial(material) {
+    activeMaterial.value = material;
 }
 
 const planableMaterials = computed(() => {
@@ -19,17 +24,23 @@ const planableMaterials = computed(() => {
             const sourceMaterial = material.sourceMaterial;
             return {
                 material: sourceMaterial,
-                plans: [
-                    material.getPlan(-5),
-                    material.getPlan(-4),
-                    material.getPlan(-3),
-                    material.getPlan(-1),
-                    material.getPlan(),
-                    material.getPlan(1),
-                    material.getPlan(2),
-                    material.getPlan(4),
-                    material.getPlan(5),
-                ],
+                plans: activeMaterial?.value?.key === material.key
+                    ? [
+                        material.getPlan(-8),
+                        material.getPlan(-6),
+                        material.getPlan(-5),
+                        material.getPlan(-4),
+                        material.getPlan(-3),
+                        material.getPlan(-1),
+                        material.getPlan(),
+                        material.getPlan(1),
+                        material.getPlan(2),
+                        material.getPlan(4),
+                        material.getPlan(5),
+                        material.getPlan(7),
+                        material.getPlan(8),
+                    ]
+                    : [material.getPlan()],
                 result: material,
             }
         });
@@ -41,7 +52,9 @@ const planableMaterials = computed(() => {
         <PlanRecipe v-for="recipe of planableMaterials"
                     :material="recipe.material"
                     :plans="recipe.plans"
-                    :result="recipe.result" />
+                    :result="recipe.result"
+                    :key="recipe.result.key"
+                    @click="setActiveMaterial(recipe.result)"/>
     </div>
 </template>
 
@@ -49,6 +62,10 @@ const planableMaterials = computed(() => {
     .plan-container {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
+
+        & > *, & > * > * {
+            height: 100%;
+        }
     }
 
     @media screen and (max-width: 1580px) {
