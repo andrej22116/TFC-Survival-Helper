@@ -177,6 +177,31 @@
             "material": "refined_iron_bloom",
             "static_actions": ["shrink", "shrink", "shrink", "shrink", "shrink"],
             "actions": ["hit", "punch"]
+        },
+        "bucket": {
+            "entry": 0,
+            "material": "sheet",
+            "actions": ["bend", "bend", "bend"]
+        },
+        "helmet": {
+            "entry": 0,
+            "material": "double_sheet",
+            "actions": ["bend", "bend", "hit"]
+        },
+        "сhestplate": {
+            "entry": 0,
+            "material": "double_sheet",
+            "actions": ["upset", "hit", "hit"]
+        },
+        "greaves": {
+            "entry": 0,
+            "material": "double_sheet",
+            "actions": ["hit", "draw", "bend"]
+        },
+        "boots": {
+            "entry": 0,
+            "material": "sheet",
+            "actions": ["shrink", "bend", "bend"]
         }
     }
 }
