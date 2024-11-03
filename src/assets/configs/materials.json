@@ -3,7 +3,7 @@
         "name": "Слиток",
         "originalName": "Ingot",
         "receipt": "casting",
-        "images": [
+        "metals": [
             {
                 "metal": "bismuth",
                 "image": {
@@ -137,7 +137,7 @@
         "originalName": "Double Ingot",
         "receipt": "weld",
         "material": "ingot",
-        "images": [
+        "metals": [
             {
                 "metal": "bismuth",
                 "image": {
@@ -272,7 +272,7 @@
         "receipt": "plan",
         "plan": "sheet",
         "material": "double_ingot",
-        "images": [
+        "metals": [
             {
                 "metal": "bismuth",
                 "image": {
@@ -406,7 +406,7 @@
         "originalName": "Double Sheet",
         "receipt": "weld",
         "material": "sheet",
-        "images": [
+        "metals": [
             {
                 "metal": "bismuth",
                 "image": {
@@ -541,17 +541,6 @@
         "receipt": "plan",
         "material": "ingot",
         "metals": [
-            "copper",
-            "bronze",
-            "bismuth_bronze",
-            "black_bronze",
-            "wrought_iron",
-            "steel",
-            "black_steel",
-            "blue_steel",
-            "red_steel"
-        ],
-        "images": [
             {
                 "metal": "copper",
                 "image": {

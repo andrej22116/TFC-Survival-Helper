@@ -9,14 +9,13 @@ export default class Material {
             originalName,
             receipt,
             metals,
-            images,
             material,
         } = configMaterial;
 
-        const mappedImages = Array.isArray(images)
-            ? images.map(metalConfigImage => [
-                metalConfigImage.metal,
-                new ItemImage({configImage: metalConfigImage.image, alt:  metalConfigImage.metal})
+        const mappedMetals = Array.isArray(metals)
+            ? metals.map(metalConfig => [
+                metalConfig.metal,
+                new ItemImage({configImage: metalConfig.image, alt:  metalConfig.metal})
             ])
             : [];
 
@@ -24,9 +23,9 @@ export default class Material {
         this.name = name;
         this.originalName = originalName;
         this.receipt = Receipt.getReceipt(receipt);
-        this.metals = metals;
         this.material = material;
-        this.images = Object.fromEntries(mappedImages);
+        this.images = Object.fromEntries(mappedMetals);
+        this.metals = Object.keys(this.images);
     }
 
     setSourceMaterial(material) {
