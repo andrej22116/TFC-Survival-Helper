@@ -1752,14 +1752,14 @@
                 "metal": "blue_steel",
                 "image": {
                     "source": null,
-                    "path": "/images/5/5f/Grid_Blue_Steel_Boots.png"
+                    "path": "/images/7/7a/Grid_Blue_Steel_Bucket.png"
                 }
             },
             {
                 "metal": "red_steel",
                 "image": {
                     "source": null,
-                    "path": "/images/7/79/Grid_Red_Steel_Boots.png"
+                    "path": "/images/f/fa/Grid_Red_Steel_Bucket.png"
                 }
             }
         ]
