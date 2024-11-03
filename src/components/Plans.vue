@@ -66,6 +66,11 @@ const planableMaterials = computed(() => {
         & > *, & > * > * {
             height: 100%;
         }
+
+        & > *:hover {
+            cursor: pointer;
+            background-color: white;
+        }
     }
 
     @media screen and (max-width: 1580px) {
