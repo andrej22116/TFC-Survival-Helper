@@ -41,6 +41,11 @@ export default class PlanBuilder {
             }
         }
 
+        bestFullWay.actions.sort(({power: a}, {power: b}) => {
+            if (a < 0 && b < 0) return -b - -a;
+            else if (a > 0 && b > 0) return b - a;
+            else return a - b;
+        });
         const finalWay = [...bestFullWay.actions, ...bestFullWay.baseActions];
 
         return new Plan(finalWay, initialOffset);
