@@ -1,5 +1,5 @@
 <template>
-    <img class="item-mage" :src="itemImage.src" width="32" height="32" :alt="itemImage.alt">
+    <img class="item-mage" :src="itemImage.src" width="32" height="32" :alt="itemImage.alt" :title="itemImage.alt">
 </template>
 
 <script setup>
