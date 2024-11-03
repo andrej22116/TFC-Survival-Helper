@@ -1,4 +1,4 @@
-export const fetchConfig = async name => fetch(`/src/assets/configs/${name}.json`);
+export const fetchConfig = async name => fetch(new URL(`/src/assets/configs/${name}.json`, import.meta.url));
 
 export const fetchForgingConfig = async () => fetchConfig('forging');
 export const fetchMaterialsConfig = async () => fetchConfig('materials');
