@@ -56,7 +56,7 @@ export const makeVanillaImgUrl = path => makeUrl(EXTERNAL_SOURCE_URL_VANILLA, pa
  * @param {string} path
  * @returns {string}
  */
-export const makeSelfImgUrl = path => makeUrl('public/image', path);
+export const makeSelfImgUrl = path => makeUrl('image', path);
 
 /**
  *
