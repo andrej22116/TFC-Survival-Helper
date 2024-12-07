@@ -61,6 +61,20 @@
                 }
             },
             {
+                "metal": "lead",
+                "image": {
+                    "source": null,
+                    "path": "/images/a/af/Grid_Lead_Ingot.png"
+                }
+            },
+            {
+                "metal": "gold",
+                "image": {
+                    "source": null,
+                    "path": "/images/4/40/Grid_Gold_Ingot.png"
+                }
+            },
+            {
                 "metal": "rose_gold",
                 "image": {
                     "source": null,
@@ -192,6 +206,20 @@
                 "image": {
                     "source": null,
                     "path": "/images/4/41/Grid_Brass_Double_Ingot.png"
+                }
+            },
+            {
+                "metal": "lead",
+                "image": {
+                    "source": null,
+                    "path": "/images/7/7f/Grid_Lead_Double_Ingot.png"
+                }
+            },
+            {
+                "metal": "gold",
+                "image": {
+                    "source": null,
+                    "path": "/images/3/34/Grid_Gold_Double_Ingot.png"
                 }
             },
             {
@@ -330,6 +358,20 @@
                 }
             },
             {
+                "metal": "lead",
+                "image": {
+                    "source": null,
+                    "path": "/images/9/92/Grid_Lead_Sheet.png"
+                }
+            },
+            {
+                "metal": "gold",
+                "image": {
+                    "source": null,
+                    "path": "/images/9/99/Grid_Gold_Sheet.png"
+                }
+            },
+            {
                 "metal": "rose_gold",
                 "image": {
                     "source": null,
@@ -461,6 +503,20 @@
                 "image": {
                     "source": null,
                     "path": "/images/f/fa/Grid_Brass_Double_Sheet.png"
+                }
+            },
+            {
+                "metal": "lead",
+                "image": {
+                    "source": null,
+                    "path": "/images/f/f6/Grid_Lead_Double_Sheet.png"
+                }
+            },
+            {
+                "metal": "gold",
+                "image": {
+                    "source": null,
+                    "path": "/images/0/0c/Grid_Gold_Double_Sheet.png"
                 }
             },
             {
@@ -1760,6 +1816,943 @@
                 "image": {
                     "source": null,
                     "path": "/images/f/fa/Grid_Red_Steel_Bucket.png"
+                }
+            }
+        ]
+    },
+    "furma": {
+        "name": "Фурма",
+        "originalName": "Furma",
+        "receipt": "plan",
+        "material": "double_sheet",
+        "metals": [
+            {
+                "metal": "copper",
+                "image": {
+                    "source": "self",
+                    "path": "/materials/furma/copper.png"
+                }
+            },
+            {
+                "metal": "bronze",
+                "image": {
+                    "source": "self",
+                    "path": "/materials/furma/bronze.png"
+                }
+            },
+            {
+                "metal": "bismuth_bronze",
+                "image": {
+                    "source": "self",
+                    "path": "/materials/furma/bismuth_bronze.png"
+                }
+            },
+            {
+                "metal": "black_bronze",
+                "image": {
+                    "source": "self",
+                    "path": "/materials/furma/black_bronze.png"
+                }
+            },
+            {
+                "metal": "wrought_iron",
+                "image": {
+                    "source": "self",
+                    "path": "/materials/furma/wrought_iron.png"
+                }
+            },
+            {
+                "metal": "steel",
+                "image": {
+                    "source": "self",
+                    "path": "/materials/furma/steel.png"
+                }
+            },
+            {
+                "metal": "black_steel",
+                "image": {
+                    "source": "self",
+                    "path": "/materials/furma/black_steel.png"
+                }
+            },
+            {
+                "metal": "blue_steel",
+                "image": {
+                    "source": "self",
+                    "path": "/materials/furma/blue_steel.png"
+                }
+            },
+            {
+                "metal": "red_steel",
+                "image": {
+                    "source": "self",
+                    "path": "/materials/furma/blue_steel.png"
+                }
+            }
+        ]
+    },
+    "lamp": {
+        "name": "Лампа",
+        "originalName": "Lamp",
+        "receipt": "plan",
+        "material": "ingot",
+        "metals": [
+            {
+                "metal": "copper",
+                "image": {
+                    "source": "self",
+                    "path": "/materials/lamp/copper.png"
+                }
+            },
+            {
+                "metal": "bismuth",
+                "image": {
+                    "source": "self",
+                    "path": "/materials/lamp/bismuth.png"
+                }
+            },
+            {
+                "metal": "tin",
+                "image": {
+                    "source": "self",
+                    "path": "/materials/lamp/tin.png"
+                }
+            },
+            {
+                "metal": "bronze",
+                "image": {
+                    "source": "self",
+                    "path": "/materials/lamp/bronze.png"
+                }
+            },
+            {
+                "metal": "brass",
+                "image": {
+                    "source": "self",
+                    "path": "/materials/lamp/brass.png"
+                }
+            },
+            {
+                "metal": "bismuth_bronze",
+                "image": {
+                    "source": "self",
+                    "path": "/materials/lamp/bismuth_bronze.png"
+                }
+            },
+            {
+                "metal": "black_bronze",
+                "image": {
+                    "source": "self",
+                    "path": "/materials/lamp/black_bronze.png"
+                }
+            },
+            {
+                "metal": "wrought_iron",
+                "image": {
+                    "source": "self",
+                    "path": "/materials/lamp/wrought_iron.png"
+                }
+            },
+            {
+                "metal": "silver",
+                "image": {
+                    "source": "self",
+                    "path": "/materials/lamp/silver.png"
+                }
+            },
+            {
+                "metal": "gold",
+                "image": {
+                    "source": "self",
+                    "path": "/materials/lamp/gold.png"
+                }
+            },
+            {
+                "metal": "rose_gold",
+                "image": {
+                    "source": "self",
+                    "path": "/materials/lamp/rose_gold.png"
+                }
+            },
+            {
+                "metal": "nickel",
+                "image": {
+                    "source": "self",
+                    "path": "/materials/lamp/nickel.png"
+                }
+            },
+            {
+                "metal": "lead",
+                "image": {
+                    "source": "self",
+                    "path": "/materials/lamp/lead.png"
+                }
+            },
+            {
+                "metal": "platinum",
+                "image": {
+                    "source": "self",
+                    "path": "/materials/lamp/platinum.png"
+                }
+            },
+            {
+                "metal": "zinc",
+                "image": {
+                    "source": "self",
+                    "path": "/materials/lamp/zinc.png"
+                }
+            },
+            {
+                "metal": "steel",
+                "image": {
+                    "source": "self",
+                    "path": "/materials/lamp/steel.png"
+                }
+            },
+            {
+                "metal": "black_steel",
+                "image": {
+                    "source": "self",
+                    "path": "/materials/lamp/black_steel.png"
+                }
+            },
+            {
+                "metal": "blue_steel",
+                "image": {
+                    "source": "self",
+                    "path": "/materials/lamp/blue_steel.png"
+                }
+            },
+            {
+                "metal": "red_steel",
+                "image": {
+                    "source": "self",
+                    "path": "/materials/lamp/red_steel.png"
+                }
+            }
+        ]
+    },
+    "hatch": {
+        "name": "Люк",
+        "originalName": "Hatch",
+        "receipt": "plan",
+        "material": "sheet",
+        "metals": [
+            {
+                "metal": "copper",
+                "image": {
+                    "source": "self",
+                    "path": ""
+                }
+            },
+            {
+                "metal": "zinc",
+                "image": {
+                    "source": "self",
+                    "path": ""
+                }
+            },
+            {
+                "metal": "tin",
+                "image": {
+                    "source": "self",
+                    "path": ""
+                }
+            },
+            {
+                "metal": "bismuth",
+                "image": {
+                    "source": "self",
+                    "path": ""
+                }
+            },
+            {
+                "metal": "bronze",
+                "image": {
+                    "source": "self",
+                    "path": ""
+                }
+            },
+            {
+                "metal": "bismuth_bronze",
+                "image": {
+                    "source": "self",
+                    "path": ""
+                }
+            },
+            {
+                "metal": "black_bronze",
+                "image": {
+                    "source": "self",
+                    "path": ""
+                }
+            },
+            {
+                "metal": "lead",
+                "image": {
+                    "source": "self",
+                    "path": ""
+                }
+            },
+            {
+                "metal": "brass",
+                "image": {
+                    "source": "self",
+                    "path": ""
+                }
+            },
+            {
+                "metal": "gold",
+                "image": {
+                    "source": "self",
+                    "path": ""
+                }
+            },
+            {
+                "metal": "rose_gold",
+                "image": {
+                    "source": "self",
+                    "path": ""
+                }
+            },
+            {
+                "metal": "platinum",
+                "image": {
+                    "source": "self",
+                    "path": ""
+                }
+            },
+            {
+                "metal": "wrought_iron",
+                "image": {
+                    "source": "self",
+                    "path": ""
+                }
+            },
+            {
+                "metal": "steel",
+                "image": {
+                    "source": "self",
+                    "path": ""
+                }
+            },
+            {
+                "metal": "nickel",
+                "image": {
+                    "source": "self",
+                    "path": ""
+                }
+            },
+            {
+                "metal": "black_steel",
+                "image": {
+                    "source": "self",
+                    "path": ""
+                }
+            },
+            {
+                "metal": "blue_steel",
+                "image": {
+                    "source": "self",
+                    "path": ""
+                }
+            },
+            {
+                "metal": "red_steel",
+                "image": {
+                    "source": "self",
+                    "path": ""
+                }
+            }
+        ]
+    },
+    "screwdriver": {
+        "name": "Отвёртка",
+        "originalName": "Screwdriver",
+        "receipt": "plan",
+        "material": "ingot",
+        "metals": [
+            {
+                "metal": "copper",
+                "image": {
+                    "source": "self",
+                    "path": "/materials/screwdriver/template.png"
+                }
+            },
+            {
+                "metal": "bronze",
+                "image": {
+                    "source": "self",
+                    "path": "/materials/screwdriver/template.png"
+                }
+            },
+            {
+                "metal": "bismuth_bronze",
+                "image": {
+                    "source": "self",
+                    "path": "/materials/screwdriver/template.png"
+                }
+            },
+            {
+                "metal": "black_bronze",
+                "image": {
+                    "source": "self",
+                    "path": "/materials/screwdriver/template.png"
+                }
+            },
+            {
+                "metal": "wrought_iron",
+                "image": {
+                    "source": "self",
+                    "path": "/materials/screwdriver/template.png"
+                }
+            },
+            {
+                "metal": "steel",
+                "image": {
+                    "source": "self",
+                    "path": "/materials/screwdriver/template.png"
+                }
+            },
+            {
+                "metal": "black_steel",
+                "image": {
+                    "source": "self",
+                    "path": "/materials/screwdriver/template.png"
+                }
+            },
+            {
+                "metal": "blue_steel",
+                "image": {
+                    "source": "self",
+                    "path": "/materials/screwdriver/template.png"
+                }
+            },
+            {
+                "metal": "red_steel",
+                "image": {
+                    "source": "self",
+                    "path": "/materials/screwdriver/template.png"
+                }
+            }
+        ]
+    },
+    "halberd": {
+        "name": "Алебарда",
+        "originalName": "Halberd",
+        "receipt": "plan",
+        "material": "double_ingot",
+        "metals": [
+            {
+                "metal": "copper",
+                "image": {
+                    "source": "self",
+                    "path": "/materials/halberd/template.png"
+                }
+            },
+            {
+                "metal": "bronze",
+                "image": {
+                    "source": "self",
+                    "path": "/materials/halberd/template.png"
+                }
+            },
+            {
+                "metal": "bismuth_bronze",
+                "image": {
+                    "source": "self",
+                    "path": "/materials/halberd/template.png"
+                }
+            },
+            {
+                "metal": "black_bronze",
+                "image": {
+                    "source": "self",
+                    "path": "/materials/halberd/template.png"
+                }
+            },
+            {
+                "metal": "wrought_iron",
+                "image": {
+                    "source": "self",
+                    "path": "/materials/halberd/template.png"
+                }
+            },
+            {
+                "metal": "steel",
+                "image": {
+                    "source": "self",
+                    "path": "/materials/halberd/template.png"
+                }
+            },
+            {
+                "metal": "black_steel",
+                "image": {
+                    "source": "self",
+                    "path": "/materials/halberd/template.png"
+                }
+            },
+            {
+                "metal": "blue_steel",
+                "image": {
+                    "source": "self",
+                    "path": "/materials/halberd/template.png"
+                }
+            },
+            {
+                "metal": "red_steel",
+                "image": {
+                    "source": "self",
+                    "path": "/materials/halberd/template.png"
+                }
+            }
+        ]
+    },
+    "rapier": {
+        "name": "Рапира",
+        "originalName": "Rapier",
+        "receipt": "plan",
+        "material": "ingot",
+        "metals": [
+            {
+                "metal": "copper",
+                "image": {
+                    "source": "self",
+                    "path": "/materials/rapier/template.png"
+                }
+            },
+            {
+                "metal": "bronze",
+                "image": {
+                    "source": "self",
+                    "path": "/materials/rapier/template.png"
+                }
+            },
+            {
+                "metal": "bismuth_bronze",
+                "image": {
+                    "source": "self",
+                    "path": "/materials/rapier/template.png"
+                }
+            },
+            {
+                "metal": "black_bronze",
+                "image": {
+                    "source": "self",
+                    "path": "/materials/rapier/template.png"
+                }
+            },
+            {
+                "metal": "wrought_iron",
+                "image": {
+                    "source": "self",
+                    "path": "/materials/rapier/template.png"
+                }
+            },
+            {
+                "metal": "steel",
+                "image": {
+                    "source": "self",
+                    "path": "/materials/rapier/template.png"
+                }
+            },
+            {
+                "metal": "black_steel",
+                "image": {
+                    "source": "self",
+                    "path": "/materials/rapier/template.png"
+                }
+            },
+            {
+                "metal": "blue_steel",
+                "image": {
+                    "source": "self",
+                    "path": "/materials/rapier/template.png"
+                }
+            },
+            {
+                "metal": "red_steel",
+                "image": {
+                    "source": "self",
+                    "path": "/materials/rapier/template.png"
+                }
+            }
+        ]
+    },
+    "fishhook": {
+        "name": "Рыболовный крючок",
+        "originalName": "Fishhook",
+        "receipt": "plan",
+        "material": "ingot",
+        "metals": [
+            {
+                "metal": "copper",
+                "image": {
+                    "source": "self",
+                    "path": "/materials/fishhook/template.png"
+                }
+            },
+            {
+                "metal": "bronze",
+                "image": {
+                    "source": "self",
+                    "path": "/materials/fishhook/template.png"
+                }
+            },
+            {
+                "metal": "bismuth_bronze",
+                "image": {
+                    "source": "self",
+                    "path": "/materials/fishhook/template.png"
+                }
+            },
+            {
+                "metal": "black_bronze",
+                "image": {
+                    "source": "self",
+                    "path": "/materials/fishhook/template.png"
+                }
+            },
+            {
+                "metal": "wrought_iron",
+                "image": {
+                    "source": "self",
+                    "path": "/materials/fishhook/template.png"
+                }
+            },
+            {
+                "metal": "steel",
+                "image": {
+                    "source": "self",
+                    "path": "/materials/fishhook/template.png"
+                }
+            },
+            {
+                "metal": "black_steel",
+                "image": {
+                    "source": "self",
+                    "path": "/materials/fishhook/template.png"
+                }
+            },
+            {
+                "metal": "blue_steel",
+                "image": {
+                    "source": "self",
+                    "path": "/materials/fishhook/template.png"
+                }
+            },
+            {
+                "metal": "red_steel",
+                "image": {
+                    "source": "self",
+                    "path": "/materials/fishhook/template.png"
+                }
+            }
+        ]
+    },
+    "arrowhead": {
+        "name": "Наконечник стрелы",
+        "originalName": "Arrowhead",
+        "receipt": "plan",
+        "material": "ingot",
+        "metals": [
+            {
+                "metal": "copper",
+                "image": {
+                    "source": "self",
+                    "path": "/materials/arrowhead/template.png"
+                }
+            },
+            {
+                "metal": "bronze",
+                "image": {
+                    "source": "self",
+                    "path": "/materials/arrowhead/template.png"
+                }
+            },
+            {
+                "metal": "bismuth_bronze",
+                "image": {
+                    "source": "self",
+                    "path": "/materials/arrowhead/template.png"
+                }
+            },
+            {
+                "metal": "black_bronze",
+                "image": {
+                    "source": "self",
+                    "path": "/materials/arrowhead/template.png"
+                }
+            },
+            {
+                "metal": "wrought_iron",
+                "image": {
+                    "source": "self",
+                    "path": "/materials/arrowhead/template.png"
+                }
+            },
+            {
+                "metal": "steel",
+                "image": {
+                    "source": "self",
+                    "path": "/materials/arrowhead/template.png"
+                }
+            },
+            {
+                "metal": "black_steel",
+                "image": {
+                    "source": "self",
+                    "path": "/materials/arrowhead/template.png"
+                }
+            },
+            {
+                "metal": "blue_steel",
+                "image": {
+                    "source": "self",
+                    "path": "/materials/arrowhead/template.png"
+                }
+            },
+            {
+                "metal": "red_steel",
+                "image": {
+                    "source": "self",
+                    "path": "/materials/arrowhead/template.png"
+                }
+            }
+        ]
+    },
+    "ring": {
+        "name": "Кольцо",
+        "originalName": "Ring",
+        "receipt": "plan",
+        "material": "ingot",
+        "metals": [
+            {
+                "metal": "wrought_iron",
+                "image": {
+                    "source": "self",
+                    "path": "/materials/ring/template.png"
+                }
+            }
+        ]
+    },
+    "shield": {
+        "name": "Щит",
+        "originalName": "Shield",
+        "receipt": "plan",
+        "material": "double_sheet",
+        "metals": [
+            {
+                "metal": "copper",
+                "image": {
+                    "source": "self",
+                    "path": ""
+                }
+            },
+            {
+                "metal": "bronze",
+                "image": {
+                    "source": "self",
+                    "path": ""
+                }
+            },
+            {
+                "metal": "bismuth_bronze",
+                "image": {
+                    "source": "self",
+                    "path": ""
+                }
+            },
+            {
+                "metal": "black_bronze",
+                "image": {
+                    "source": "self",
+                    "path": ""
+                }
+            },
+            {
+                "metal": "wrought_iron",
+                "image": {
+                    "source": "self",
+                    "path": ""
+                }
+            },
+            {
+                "metal": "steel",
+                "image": {
+                    "source": "self",
+                    "path": ""
+                }
+            },
+            {
+                "metal": "black_steel",
+                "image": {
+                    "source": "self",
+                    "path": ""
+                }
+            },
+            {
+                "metal": "blue_steel",
+                "image": {
+                    "source": "self",
+                    "path": ""
+                }
+            },
+            {
+                "metal": "red_steel",
+                "image": {
+                    "source": "self",
+                    "path": ""
+                }
+            }
+        ]
+    },
+    "brass_pinion": {
+        "name": "Латунная шестерня",
+        "originalName": "Brass pinion",
+        "receipt": "plan",
+        "material": "ingot",
+        "metals": [
+            {
+                "metal": "brass",
+                "image": {
+                    "source": "self",
+                    "path": "/materials/brass_pinion/brass.png"
+                }
+            }
+        ]
+    },
+    "iron_bars": {
+        "name": "Железные прутья",
+        "originalName": "Iron bars",
+        "receipt": "plan",
+        "material": "sheet",
+        "metals": [
+            {
+                "metal": "wrought_iron",
+                "image": {
+                    "source": "vanilla",
+                    "path": "/images/Invicon_Iron_Bars.png"
+                }
+            }
+        ]
+    },
+    "grill_grate": {
+        "name": "Решётка гриля",
+        "originalName": "Grill grate",
+        "receipt": "plan",
+        "material": "double_sheet",
+        "metals": [
+            {
+                "metal": "wrought_iron",
+                "image": {
+                    "source": "self",
+                    "path": "/materials/grill_grate/wrought_iron.png"
+                }
+            }
+        ]
+    },
+    "rod": {
+        "name": "Стержень",
+        "originalName": "Rod",
+        "receipt": "plan",
+        "material": "ingot",
+        "metals": [
+            {
+                "metal": "wrought_iron",
+                "image": {
+                    "source": "self",
+                    "path": "/materials/rod/template.png"
+                }
+            }
+        ]
+    },
+    "clock_base": {
+        "name": "Основа под часы",
+        "originalName": "Clock base",
+        "receipt": "plan",
+        "material": "ingot",
+        "metals": [
+            {
+                "metal": "gold",
+                "image": {
+                    "source": "self",
+                    "path": "/materials/clock_base/gold.png"
+                }
+            }
+        ]
+    },
+    "compass_base": {
+        "name": "Основа под компас",
+        "originalName": "Compass base",
+        "receipt": "plan",
+        "material": "ingot",
+        "metals": [
+            {
+                "metal": "wrought_iron",
+                "image": {
+                    "source": "self",
+                    "path": "/materials/compass_base/wrought_iron.png"
+                }
+            }
+        ]
+    },
+    "trap_part": {
+        "name": "Часть капкана",
+        "originalName": "Part of the trap",
+        "receipt": "plan",
+        "material": "sheet",
+        "metals": [
+            {
+                "metal": "wrought_iron",
+                "image": {
+                    "source": "self",
+                    "path": "/materials/trap_part/wrought_iron.png"
+                }
+            }
+        ]
+    },
+    "chute": {
+        "name": "Желоб",
+        "originalName": "Chute",
+        "receipt": "plan",
+        "material": "sheet",
+        "metals": [
+            {
+                "metal": "wrought_iron",
+                "image": {
+                    "source": "self",
+                    "path": "/materials/chute/wrought_iron.png"
+                }
+            }
+        ]
+    },
+    "pot_holder": {
+        "name": "Держатель горшка",
+        "originalName": "Pot holder",
+        "receipt": "plan",
+        "material": "sheet",
+        "metals": [
+            {
+                "metal": "wrought_iron",
+                "image": {
+                    "source": "self",
+                    "path": "/materials/pot_holder/wrought_iron.png"
+                }
+            }
+        ]
+    },
+    "flask": {
+        "name": "Фляга",
+        "originalName": "Flask",
+        "receipt": "plan",
+        "material": "sheet",
+        "metals": [
+            {
+                "metal": "tin",
+                "image": {
+                    "source": "self",
+                    "path": "/materials/flask/tin.png"
                 }
             }
         ]

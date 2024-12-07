@@ -202,6 +202,106 @@
             "entry": 0,
             "material": "sheet",
             "actions": ["shrink", "bend", "bend"]
+        },
+		"furma": {
+            "entry": 0,
+            "material": "double_sheet",
+            "actions": ["bend", "bend"]
+        },
+		"lamp": {
+            "entry": 0,
+            "material": "ingot",
+            "actions": ["draw", "bend", "bend"]
+        },
+		"hatch": {
+            "entry": 0,
+            "material": "sheet",
+            "actions": ["draw", "draw", "bend"]
+        },
+		"screwdriver": {
+            "entry": 0,
+            "material": "ingot",
+            "actions": ["punch", "hit", "bend"]
+        },
+		"halberd": {
+            "entry": 0,
+            "material": "double_ingot",
+            "actions": ["draw", "hit", "punch"]
+        },
+		"rapier": {
+            "entry": 0,
+            "material": "ingot",
+            "actions": ["draw", "hit", "hit"]
+        },
+		"fishhook": {
+            "entry": 0,
+            "material": "ingot",
+            "actions": ["hit", "draw", "bend"]
+        },
+		"arrowhead": {
+            "entry": 0,
+            "material": "ingot",
+            "actions": ["shrink", ["punch", "draw"]]
+        },
+		"ring": {
+            "entry": 0,
+            "material": "ingot",
+            "actions": ["shrink", "bend", "bend"]
+        },
+		"shield": {
+            "entry": 0,
+            "material": "double_sheet",
+            "actions": ["bend", "bend", "upset"]
+        },
+		"brass_pinion": {
+            "entry": 0,
+            "material": "ingot",
+            "actions": ["punch", "hit", "punch"]
+        },
+		"iron_bars": {
+            "entry": 0,
+            "material": "sheet",
+            "actions": ["punch", "punch", "upset"]
+        },
+		"grill_grate": {
+            "entry": 0,
+            "material": "double_sheet",
+            "actions": ["punch", ["punch", "draw"]]
+        },
+		"rod": {
+            "entry": 0,
+            "material": "ingot",
+            "actions": [["punch", "draw"], "draw"]
+        },
+		"clock_base": {
+            "entry": 0,
+            "material": "ingot",
+            "actions": ["punch", "hit", "draw"]
+        },
+		"compass_base": {
+            "entry": 0,
+            "material": "ingot",
+            "actions": ["punch", "hit", "draw"]
+        },
+		"trap_part": {
+            "entry": 0,
+            "material": "sheet",
+            "actions": [["shrink", "punch"], "draw"]
+        },
+		"chute": {
+            "entry": 0,
+            "material": "sheet",
+            "actions": [["shrink", "bend"], "hit"]
+        },
+		"pot_holder": {
+            "entry": 0,
+            "material": "sheet",
+            "actions": [["hit", "draw"], "draw"]
+        },
+		"flask": {
+            "entry": 0,
+            "material": "sheet",
+            "actions": ["bend", "bend", "punch"]
         }
     }
 }
