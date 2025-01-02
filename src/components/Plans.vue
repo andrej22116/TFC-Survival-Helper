@@ -11,7 +11,7 @@ if (!entityStore.isReady && !entityStore.loading && !entityStore.error) {
 
 const activeMaterial = ref(null);
 function setActiveMaterial(material) {
-    activeMaterial.value = material;
+    activeMaterial.value = activeMaterial.value !== material ? material : null;
 }
 
 const planableMaterials = computed(() => {
