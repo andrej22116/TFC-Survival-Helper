@@ -10,14 +10,18 @@ export default class Material {
             receipt,
             metals,
             material,
+            templateImg
         } = configMaterial;
 
         const mappedMetals = Array.isArray(metals)
-            ? metals.map(metalConfig => [
-                metalConfig.metal,
-                new ItemImage({configImage: metalConfig.image, alt:  metalConfig.metal})
-            ])
-            : [];
+            ? metals.map(
+                metalConfig => typeof metalConfig === 'string'
+                    ? [metalConfig,  new ItemImage({configImage: templateImg, alt: metalConfig})]
+                    : [
+                        metalConfig.metal,
+                        new ItemImage({configImage: metalConfig.image, alt:  metalConfig.metal})
+                    ]
+            ) : [];
 
         this.key = key;
         this.name = name;
