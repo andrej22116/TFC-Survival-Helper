@@ -3,7 +3,7 @@
         "name": "Слиток",
         "originalName": "Ingot",
         "receipt": "casting",
-        "template_img": "/materials/ingot/template.png",
+        "templateImg": "/materials/ingot/template.png",
         "metals": [
             {
                 "metal": "bismuth",
@@ -65,7 +65,7 @@
         "originalName": "Double Ingot",
         "receipt": "weld",
         "material": "ingot",
-        "template_img": "/materials/double_ingot/template.png",
+        "templateImg": "/materials/double_ingot/template.png",
         "metals": [
             "bismuth",
             "tin",
@@ -95,7 +95,7 @@
         "receipt": "plan",
         "plan": "sheet",
         "material": "double_ingot",
-        "template_img": "/materials/sheet/template.png",
+        "templateImg": "/materials/sheet/template.png",
         "metals": [
             "bismuth",
             "tin",
@@ -124,7 +124,7 @@
         "originalName": "Double Sheet",
         "receipt": "weld",
         "material": "sheet",
-        "template_img": "/materials/double_sheet/template.png",
+        "templateImg": "/materials/double_sheet/template.png",
         "metals": [
             "bismuth",
             "tin",
@@ -153,7 +153,7 @@
         "originalName": "Sword",
         "receipt": "plan",
         "material": "ingot",
-        "template_img": "/materials/sword_blade/template.png",
+        "templateImg": "/materials/sword_blade/template.png",
         "metals": [
             "copper",
             "bronze",
@@ -171,7 +171,7 @@
         "originalName": "Axe",
         "receipt": "plan",
         "material": "ingot",
-        "template_img": "/materials/axe_head/template.png",
+        "templateImg": "/materials/axe_head/template.png",
         "metals": [
             "copper",
             "bronze",
@@ -189,7 +189,7 @@
         "originalName": "Chisel",
         "receipt": "plan",
         "material": "ingot",
-        "template_img": "/materials/chisel_head/template.png",
+        "templateImg": "/materials/chisel_head/template.png",
         "metals": [
             "copper",
             "bronze",
@@ -207,7 +207,7 @@
         "originalName": "Hammer",
         "receipt": "plan",
         "material": "ingot",
-        "template_img": "/materials/hammer_head/template.png",
+        "templateImg": "/materials/hammer_head/template.png",
         "metals": [
             "copper",
             "bronze",
@@ -225,7 +225,7 @@
         "originalName": "Hoe",
         "receipt": "plan",
         "material": "ingot",
-        "template_img": "/materials/hoe_head/template.png",
+        "templateImg": "/materials/hoe_head/template.png",
         "metals": [
             "copper",
             "bronze",
@@ -243,7 +243,7 @@
         "originalName": "Javelin",
         "receipt": "plan",
         "material": "ingot",
-        "template_img": "/materials/javelin_head/template.png",
+        "templateImg": "/materials/javelin_head/template.png",
         "metals": [
             "copper",
             "bronze",
@@ -261,7 +261,7 @@
         "originalName": "Knife",
         "receipt": "plan",
         "material": "ingot",
-        "template_img": "/materials/knife_blade/template.png",
+        "templateImg": "/materials/knife_blade/template.png",
         "metals": [
             "copper",
             "bronze",
@@ -279,7 +279,7 @@
         "originalName": "Mace",
         "receipt": "plan",
         "material": "double_ingot",
-        "template_img": "/materials/mace_head/template.png",
+        "templateImg": "/materials/mace_head/template.png",
         "metals": [
             "copper",
             "bronze",
@@ -297,7 +297,7 @@
         "originalName": "Pickaxe",
         "receipt": "plan",
         "material": "ingot",
-        "template_img": "/materials/pickaxe_head/template.png",
+        "templateImg": "/materials/pickaxe_head/template.png",
         "metals": [
             "copper",
             "bronze",
@@ -315,7 +315,7 @@
         "originalName": "Prospector's Pick",
         "receipt": "plan",
         "material": "ingot",
-        "template_img": "/materials/prospector_pick_head/template.png",
+        "templateImg": "/materials/prospector_pick_head/template.png",
         "metals": [
             "copper",
             "bronze",
@@ -333,7 +333,7 @@
         "originalName": "Saw",
         "receipt": "plan",
         "material": "ingot",
-        "template_img": "/materials/saw_blade/template.png",
+        "templateImg": "/materials/saw_blade/template.png",
         "metals": [
             "copper",
             "bronze",
@@ -351,7 +351,7 @@
         "originalName": "Shovel",
         "receipt": "plan",
         "material": "ingot",
-        "template_img": "/materials/shovel_head/template.png",
+        "templateImg": "/materials/shovel_head/template.png",
         "metals": [
             "copper",
             "bronze",
@@ -369,7 +369,7 @@
         "originalName": "Scythe",
         "receipt": "plan",
         "material": "ingot",
-        "template_img": "/materials/scythe_blade/template.png",
+        "templateImg": "/materials/scythe_blade/template.png",
         "metals": [
             "copper",
             "bronze",
@@ -1067,7 +1067,7 @@
         "originalName": "Screwdriver",
         "receipt": "plan",
         "material": "ingot",
-        "template_img": "/materials/screwdriver_head/template.png",
+        "templateImg": "/materials/screwdriver_head/template.png",
         "metals": [
             "copper",
             "bronze",
@@ -1085,7 +1085,7 @@
         "originalName": "Halberd",
         "receipt": "plan",
         "material": "double_ingot",
-        "template_img": "/materials/halberd_head/template.png",
+        "templateImg": "/materials/halberd_head/template.png",
         "metals": [
             "copper",
             "bronze",
@@ -1103,7 +1103,7 @@
         "originalName": "Rapier",
         "receipt": "plan",
         "material": "ingot",
-        "template_img": "/materials/rapier_blade/template.png",
+        "templateImg": "/materials/rapier_blade/template.png",
         "metals": [
             "copper",
             "bronze",
@@ -1121,7 +1121,7 @@
         "originalName": "Fishhook",
         "receipt": "plan",
         "material": "ingot",
-        "template_img": "/materials/fishhook/template.png",
+        "templateImg": "/materials/fishhook/template.png",
         "metals": [
             "copper",
             "bronze",
@@ -1139,7 +1139,7 @@
         "originalName": "Arrowhead",
         "receipt": "plan",
         "material": "ingot",
-        "template_img": "/materials/arrowhead/template.png",
+        "templateImg": "/materials/arrowhead/template.png",
         "metals": [
             "copper",
             "bronze",
@@ -1157,7 +1157,7 @@
         "originalName": "Ring",
         "receipt": "plan",
         "material": "ingot",
-        "template_img": "/materials/ring/template.png",
+        "templateImg": "/materials/ring/template.png",
         "metals": [
             "bismuth",
             "tin",
@@ -1302,7 +1302,7 @@
         "originalName": "Rod",
         "receipt": "plan",
         "material": "ingot",
-        "template_img": "/materials/rod/template.png",
+        "templateImg": "/materials/rod/template.png",
         "metals": [
             "wrought_iron"
         ]
