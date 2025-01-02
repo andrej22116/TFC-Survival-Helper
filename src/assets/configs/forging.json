@@ -7,7 +7,7 @@
                 "power": -3,
                 "image": {
                     "source": null,
-                    "path": "/images/7/7c/Grid_Anvil_Hit_Light.png"
+                    "path": "/forging/hit_light.png"
                 }
             },
             {
@@ -16,7 +16,7 @@
                 "power": -6,
                 "image": {
                     "source": null,
-                    "path": "/images/b/b1/Grid_Anvil_Hit_Medium.png"
+                    "path": "/forging/hit_medium.png"
                 }
             },
             {
@@ -25,7 +25,7 @@
                 "power": -9,
                 "image": {
                     "source": null,
-                    "path": "/images/f/fb/Grid_Anvil_Hit_Heavy.png"
+                    "path": "/forging/hit_heavy.png"
                 }
             }
         ],
@@ -35,7 +35,7 @@
             "power": -15,
             "image": {
                 "source": null,
-                "path": "/images/4/42/Grid_Anvil_Draw.png"
+                "path": "/forging/draw.png"
             }
         },
         "punch": {
@@ -44,7 +44,7 @@
             "power": 2,
             "image": {
                 "source": null,
-                "path": "/images/a/aa/Grid_Anvil_Punch.png"
+                "path": "/forging/punch.png"
             }
         },
         "bend": {
@@ -53,7 +53,7 @@
             "power": 7,
             "image": {
                 "source": null,
-                "path": "/images/e/ea/Grid_Anvil_Bend.png"
+                "path": "/forging/bend.png"
             }
         },
         "upset": {
@@ -62,7 +62,7 @@
             "power": 13,
             "image": {
                 "source": null,
-                "path": "/images/6/62/Grid_Anvil_Upset.png"
+                "path": "/forging/upset.png"
             }
         },
         "shrink": {
@@ -71,7 +71,7 @@
             "power": 16,
             "image": {
                 "source": null,
-                "path": "/images/4/43/Grid_Anvil_Shrink.png"
+                "path": "/forging/shrink.png"
             }
         }
     },
