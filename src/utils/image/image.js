@@ -79,6 +79,6 @@ export const makeImageUrl = configImage => {
 
         case IMAGE_SOURCE_VANILLA: return makeVanillaImgUrl(configImage.path);
 
-        default: return makeTfcImgUrl(configImage.path);
+        default: return makeSelfImgUrl(configImage.path);
     }
 }
