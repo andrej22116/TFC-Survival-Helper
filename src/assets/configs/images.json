@@ -1,6 +1,51 @@
 {
     "result_arrow": {
         "source": null,
-        "path": "/images/8/86/Grid_layout_Arrow_%28small%29.png"
+        "path": "/common/result_arrow.png"
+    },
+    "forging_offset_0": {
+        "source": null,
+        "path": "/forging/offset/0.png",
+        "alt": "Offset 0"
+    },
+    "forging_offset_1": {
+        "source": null,
+        "path": "/forging/offset/1.png",
+        "alt": "Offset 1"
+    },
+    "forging_offset_2": {
+        "source": null,
+        "path": "/forging/offset/2.png",
+        "alt": "Offset 2"
+    },
+    "forging_offset_3": {
+        "source": null,
+        "path": "/forging/offset/3.png",
+        "alt": "Offset 3"
+    },
+    "forging_offset_4": {
+        "source": null,
+        "path": "/forging/offset/4.png",
+        "alt": "Offset 4"
+    },
+    "forging_offset_-1": {
+        "source": null,
+        "path": "/forging/offset/-1.png",
+        "alt": "Offset -1"
+    },
+    "forging_offset_-2": {
+        "source": null,
+        "path": "/forging/offset/-2.png",
+        "alt": "Offset -2"
+    },
+    "forging_offset_-3": {
+        "source": null,
+        "path": "/forging/offset/-3.png",
+        "alt": "Offset -3"
+    },
+    "forging_offset_-4": {
+        "source": null,
+        "path": "/forging/offset/-4.png",
+        "alt": "Offset -4"
     }
 }

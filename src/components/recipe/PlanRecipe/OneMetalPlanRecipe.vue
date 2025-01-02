@@ -11,9 +11,14 @@
 
             <div class="plan-recipe-box-plan-list">
                 <div v-for="planItem of planList">
-                    <span v-if="planItem.initialOffset !== undefined && planItem.initialOffset !== null">
-                        {{ planItem.initialOffset > 0 ? '+' : ''}}{{ planItem.initialOffset }}
-                    </span>
+                    <template v-if="planItem.initialOffset !== undefined && planItem.initialOffset !== null">
+                        <span v-if="planItem.initialOffset > 4 || planItem.initialOffset < -4">
+                            {{ planItem.initialOffset > 0 ? '+' : ''}}{{ planItem.initialOffset }}
+                        </span>
+                        <ItemImage v-else
+                                   :item-image="offset[planItem.initialOffset]"
+                                   class="plan-recipe-box-offset"/>
+                    </template>
 
                     <div>
                         <ItemImage v-for="action of planItem.actions" :item-image="action.image" />
@@ -54,6 +59,17 @@ const props = defineProps({
 
 const entityStore = useEntityStore();
 const arrowImage = entityStore.imageMap.result_arrow;
+const offset = {
+    [-4]: entityStore.imageMap['forging_offset_-4'],
+    [-3]: entityStore.imageMap['forging_offset_-3'],
+    [-2]: entityStore.imageMap['forging_offset_-2'],
+    [-1]: entityStore.imageMap['forging_offset_-1'],
+    [0]: entityStore.imageMap['forging_offset_0'],
+    [1]: entityStore.imageMap['forging_offset_1'],
+    [2]: entityStore.imageMap['forging_offset_2'],
+    [3]: entityStore.imageMap['forging_offset_3'],
+    [4]: entityStore.imageMap['forging_offset_4'],
+};
 
 const activeImages = computed(() => ({
     material: props.material.getImageForMetal(props.metal),
@@ -88,7 +104,7 @@ const planList = computed(() => Array.isArray(props.plans) ? props.plans : [prop
 
             & > * {
                 display: grid;
-                grid-template-columns: 50px 1fr;
+                grid-template-columns: 36px 1fr;
 
                 & > span {
                     margin-right: 4px;

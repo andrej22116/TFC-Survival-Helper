@@ -26,19 +26,15 @@ const planableMaterials = computed(() => {
                 material: sourceMaterial,
                 plans: activeMaterial?.value?.key === material.key
                     ? [
-                        material.getPlan(-8),
-                        material.getPlan(-6),
-                        material.getPlan(-5),
                         material.getPlan(-4),
                         material.getPlan(-3),
+                        material.getPlan(-2),
                         material.getPlan(-1),
                         material.getPlan(),
                         material.getPlan(1),
                         material.getPlan(2),
+                        material.getPlan(3),
                         material.getPlan(4),
-                        material.getPlan(5),
-                        material.getPlan(7),
-                        material.getPlan(8),
                     ]
                     : [material.getPlan()],
                 result: material,
