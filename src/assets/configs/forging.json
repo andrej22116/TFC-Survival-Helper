@@ -2,8 +2,8 @@
     "actions": {
         "hit": [
             {
-                "name": "Слабый удар",
-                "originalName": "Light Hit",
+                "name": "Слабый удар -3",
+                "originalName": "Light Hit -3",
                 "power": -3,
                 "image": {
                     "source": null,
@@ -11,8 +11,8 @@
                 }
             },
             {
-                "name": "Средний удар",
-                "originalName": "Medium Hit",
+                "name": "Средний удар -6",
+                "originalName": "Medium Hit -6",
                 "power": -6,
                 "image": {
                     "source": null,
@@ -20,8 +20,8 @@
                 }
             },
             {
-                "name": "Сильный удар",
-                "originalName": "Heavy hit",
+                "name": "Сильный удар -9",
+                "originalName": "Heavy hit -9",
                 "power": -9,
                 "image": {
                     "source": null,
@@ -30,8 +30,8 @@
             }
         ],
         "draw": {
-            "name": "Протянуть",
-            "originalName": "Draw",
+            "name": "Протянуть -15",
+            "originalName": "Draw -15",
             "power": -15,
             "image": {
                 "source": null,
@@ -39,8 +39,8 @@
             }
         },
         "punch": {
-            "name": "Штамповать",
-            "originalName": "Punch",
+            "name": "Штамповать +2",
+            "originalName": "Punch +2",
             "power": 2,
             "image": {
                 "source": null,
@@ -48,8 +48,8 @@
             }
         },
         "bend": {
-            "name": "Изогнуть",
-            "originalName": "Bend",
+            "name": "Изогнуть +7",
+            "originalName": "Bend +7",
             "power": 7,
             "image": {
                 "source": null,
@@ -57,8 +57,8 @@
             }
         },
         "upset": {
-            "name": "Обжать",
-            "originalName": "Upset",
+            "name": "Обжать +13",
+            "originalName": "Upset +13",
             "power": 13,
             "image": {
                 "source": null,
@@ -66,8 +66,8 @@
             }
         },
         "shrink": {
-            "name": "Усадить",
-            "originalName": "Shrink",
+            "name": "Усадить +16",
+            "originalName": "Shrink +16",
             "power": 16,
             "image": {
                 "source": null,
