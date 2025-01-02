@@ -246,7 +246,7 @@
 		"ring": {
             "entry": 0,
             "material": "ingot",
-            "actions": ["shrink", "bend", "bend"]
+            "actions": ["shrink", "bend", "hit"]
         },
 		"shield": {
             "entry": 0,
