@@ -1316,7 +1316,7 @@
                 "metal": "red_steel",
                 "image": {
                     "source": "self",
-                    "path": "/materials/shield/blue_steel.png"
+                    "path": "/materials/shield/red_steel.png"
                 }
             }
         ]
