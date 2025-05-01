@@ -2,233 +2,246 @@
     "bismuth": {
         "name": "Висмут",
         "originalName": "Bismuth",
-        "tier": 0,
-        "image": {
-            "source": null,
-            "path": "/images/b/b6/Grid_Bismuth_Ingot.png"
-        }
+        "origin": "mining",
+        "tier": 0
     },
     "tin": {
         "name": "Олово",
         "originalName": "Tin",
-        "tier": 0,
-        "image": {
-            "source": null,
-            "path": "/images/f/f8/Grid_Tin_Ingot.png"
-        }
+        "origin": "mining",
+        "tier": 0
     },
     "zinc": {
         "name": "Цинк",
         "originalName": "Zinc",
-        "tier": 0,
-        "image": {
-            "source": null,
-            "path": "/images/9/90/Grid_Zinc_Ingot.png"
-        }
+        "origin": "mining",
+        "tier": 0
     },
     "copper": {
         "name": "Медь",
         "originalName": "Copper",
-        "tier": 1,
-        "image": {
-            "source": null,
-            "path": "/images/3/32/Grid_Copper_Ingot.png"
-        }
+        "origin": "mining",
+        "tier": 1
     },
     "lead": {
         "name": "Свинец",
         "originalName": "Lead",
-        "tier": 2,
-        "image": {
-            "source": null,
-            "path": "/images/a/af/Grid_Lead_Ingot.png"
-        }
+        "origin": "mining",
+        "tier": 2
     },
     "gold": {
         "name": "Золото",
         "originalName": "Gold",
-        "tier": 2,
-        "image": {
-            "source": null,
-            "path": "/images/4/40/Grid_Gold_Ingot.png"
-        }
+        "origin": "mining",
+        "tier": 2
     },
     "silver": {
         "name": "Серебро",
         "originalName": "Silver",
-        "tier": 2,
-        "image": {
-            "source": null,
-            "path": "/images/c/c4/Grid_Silver_Ingot.png"
-        }
+        "origin": "mining",
+        "tier": 2
     },
     "bronze": {
         "name": "Бронза",
         "originalName": "Bronze",
+        "origin": "alloy",
         "composition": {
             "copper": [88, 92],
             "tin": [8, 12]
         },
-        "tier": 2,
-        "image": {
-            "source": null,
-            "path": "/images/c/ce/Grid_Bronze_Ingot.png"
-        }
+        "tier": 2
     },
     "bismuth_bronze": {
         "name": "Висмутовая бронза",
         "originalName": "Bismuth Bronze",
+        "origin": "alloy",
         "composition": {
             "copper": [50, 65],
             "zinc": [20, 30],
             "bismuth": [10, 20]
         },
-        "tier": 2,
-        "image": {
-            "source": null,
-            "path": "/images/f/f7/Grid_Bismuth_Bronze_Ingot.png"
-        }
+        "tier": 2
     },
     "black_bronze": {
         "name": "Чёрная бронза",
         "originalName": "Black Bronze",
+        "origin": "alloy",
         "composition": {
             "copper": [50, 70],
             "silver": [10, 25],
             "gold": [10, 25]
         },
-        "tier": 2,
-        "image": {
-            "source": null,
-            "path": "/images/a/a1/Grid_Black_Bronze_Ingot.png"
-        }
+        "tier": 2
     },
     "brass": {
         "name": "Латунь",
         "originalName": "Brass",
+        "origin": "alloy",
         "composition": {
             "copper": [70, 80],
             "zinc": [20, 30]
         },
-        "tier": 2,
-        "image": {
-            "source": null,
-            "path": "/images/3/3d/Grid_Brass_Ingot.png"
-        }
+        "tier": 2
     },
     "rose_gold": {
         "name": "Розовое золото",
         "originalName": "Rose Gold",
+        "origin": "alloy",
         "composition": {
             "gold": [70, 85],
             "copper": [15, 30]
         },
-        "tier": 2,
-        "image": {
-            "source": null,
-            "path": "/images/2/2d/Grid_Rose_Gold_Ingot.png"
-        }
+        "tier": 2
     },
     "sterling_silver": {
-        "name": "Серебро 2",
+        "name": "Стерлинг",
         "originalName": "Sterling Silver",
+        "origin": "alloy",
         "composition": {
             "silver": [60, 80],
             "copper": [20, 40]
         },
-        "tier": 2,
-        "image": {
-            "source": null,
-            "path": "/images/8/81/Grid_Sterling_Silver_Ingot.png"
-        }
-    },
-    "platinum": {
-        "name": "Платина",
-        "originalName": "Platinum",
-        "tier": 3,
-        "image": {
-            "source": null,
-            "path": "/images/6/63/Grid_Platinum_Ingot.png"
-        }
+        "tier": 2
     },
     "wrought_iron": {
         "name": "Кованое железо",
         "originalName": "Wrought Iron",
-        "tier": 3,
-        "image": {
-            "source": null,
-            "path": "/images/b/bb/Grid_Wrought_Iron_Ingot.png"
-        }
+        "origin": "mining",
+        "tier": 3
+    },
+    "raw_platinum": {
+        "name": "Необработанная платина",
+        "originalName": "Raw platinum",
+        "origin": "mining",
+        "tier": 4
+    },
+    "platinum": {
+        "name": "Платина",
+        "originalName": "Platinum",
+        "origin": "forging",
+        "material": "raw_platinum",
+        "tier": 4
     },
     "nickel": {
         "name": "Никель",
         "originalName": "Nickel",
-        "tier": 4,
-        "image": {
-            "source": null,
-            "path": "/images/e/e9/Grid_Nickel_Ingot.png"
-        }
+        "origin": "mining",
+        "tier": 4
     },
     "pig_iron": {
         "name": "Чугун",
         "originalName": "Pig Iron",
-        "tier": 4,
-        "image": {
-            "source": null,
-            "path": "/images/e/ec/Grid_Pig_Iron_Ingot.png"
-        }
+        "origin": "mining",
+        "tier": 4
+    },
+    "high_carbon_steel": {
+        "name": "Высокоуглеродистая сталь",
+        "originalName": "High carbon steel",
+        "origin": "forging",
+        "material": "pig_iron",
+        "tier": 4
     },
     "steel": {
         "name": "Сталь",
         "originalName": "Steel",
-        "tier": 4,
-        "image": {
-            "source": null,
-            "path": "/images/b/b3/Grid_Steel_Ingot.png"
-        }
+        "origin": "forging",
+        "material": "high_carbon_steel",
+        "tier": 4
     },
-    "black_steel": {
-        "name": "Чёрная сталь",
-        "originalName": "Black Steel",
+    "raw_steel": {
+        "name": "Сырая сталь",
+        "originalName": "Raw steel",
+        "origin": "alloy",
         "composition": {
             "steel": [50, 70],
             "nickel": [15, 25],
             "black_bronze": [15, 25]
         },
-        "tier": 5,
-        "image": {
-            "source": null,
-            "path": "/images/7/77/Grid_Black_Steel_Ingot.png"
-        }
+        "tier": 4
     },
-    "blue_steel": {
-        "name": "Синяя сталь",
-        "originalName": "Blue Steel",
+    "high_carbon_black_steel": {
+        "name": "Высокоуглеродистая чёрная сталь",
+        "originalName": "High carbon black steel",
+        "origin": "alloy",
+        "composition": {
+            "raw_steel": [48, 52],
+            "pig_iron": [48, 52]
+        },
+        "tier": 4
+    },
+    "black_steel": {
+        "name": "Чёрная сталь",
+        "originalName": "Black Steel",
+        "origin": "forging",
+        "material": "high_carbon_black_steel",
+        "tier": 5
+    },
+    "raw_blue_steel": {
+        "name": "Cырая синяя сталь",
+        "originalName": "Raw blue Steel",
+        "origin": "alloy",
         "composition": {
             "black_steel": [50, 55],
             "steel": [20, 25],
             "bismuth_bronze": [10, 15],
             "sterling_silver": [10, 15]
         },
-        "tier": 6,
-        "image": {
-            "source": null,
-            "path": "/images/6/64/Grid_Blue_Steel_Ingot.png"
-        }
+        "tier": 6
     },
-    "red_steel": {
-        "name": "Красная сталь",
-        "originalName": "Red Steel",
+    "high_carbon_blue_steel": {
+        "name": "Высокоуглеродистая синяя сталь",
+        "originalName": "High carbon blue Steel",
+        "origin": "weld",
+        "composition": ["raw_blue_steel", "black_steel"],
+        "tier": 6
+    },
+    "blue_steel": {
+        "name": "Синяя сталь",
+        "originalName": "Blue Steel",
+        "origin": "forging",
+        "material": "high_carbon_blue_steel",
+        "tier": 6
+    },
+    "raw_red_steel": {
+        "name": "Cырая красная сталь",
+        "originalName": "Raw red Steel",
+        "origin": "alloy",
         "composition": {
             "black_steel": [50, 55],
             "steel": [20, 25],
             "rose_gold": [10, 15],
             "brass": [10, 15]
         },
-        "tier": 6,
-        "image": {
-            "source": null,
-            "path": "/images/8/83/Grid_Red_Steel_Ingot.png"
-        }
+        "tier": 6
+    },
+    "high_carbon_red_steel": {
+        "name": "Высокоуглеродистая красная сталь",
+        "originalName": "High carbon red Steel",
+        "origin": "weld",
+        "composition": ["raw_red_steel", "black_steel"],
+        "tier": 6
+    },
+    "red_steel": {
+        "name": "Красная сталь",
+        "originalName": "Red Steel",
+        "origin": "forging",
+        "material": "high_carbon_red_steel",
+        "tier": 6
+    },
+    "liquefied_redstone": {
+        "name": "Редстоуновый слиток",
+        "originalName": "Liquefied redstone",
+        "origin": "mining",
+        "tier": 2
+    },
+    "red_alloy": {
+        "name": "Красный сплав",
+        "originalName": "Red Alloy",
+        "origin": "alloy",
+        "composition": {
+            "platinum": [60, 70],
+            "liquefied_redstone": [30, 40]
+        },
+        "tier": 4
     }
 }

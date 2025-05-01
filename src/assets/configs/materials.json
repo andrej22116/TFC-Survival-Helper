@@ -37,7 +37,10 @@
             "wrought_iron",
             "nickel",
             "pig_iron",
+            "high_carbon_steel",
             "steel",
+            "raw_steel",
+            "high_carbon_black_steel",
             {
                 "metal": "black_steel",
                 "image": {
@@ -45,7 +48,11 @@
                     "path": "/materials/ingot/black_steel.png"
                 }
             },
+            "raw_blue_steel",
+            "high_carbon_blue_steel",
             "blue_steel",
+            "raw_red_steel",
+            "high_carbon_red_steel",
             "red_steel",
             {
                 "metal": "liquefied_redstone",
