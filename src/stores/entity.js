@@ -69,9 +69,6 @@ export const useEntityStore = defineStore('entity', () => {
             mergeMaterialsWithMaterials(materialMap.value);
             mergeMaterialsWithPlanTemplates(materialMap.value, forging.value.planTemplates);
 
-            const graphemeSegmenter = Intl.Segmenter && new Intl.Segmenter('ru');
-            const wordSegmenter = Intl.Segmenter && new Intl.Segmenter('ru', {granularity: 'word'});
-
             fulltextSearch.value = new MiniSearch({
                 fields: ['name', 'originalName'],
                 storeFields: ['category', 'object'],
@@ -104,12 +101,6 @@ export const useEntityStore = defineStore('entity', () => {
         if (!search.length) {
             return [];
         }
-
-        console.log(fulltextSearch.value
-            .search(search, {
-                filter: result => result.category === FULLTEXT_CAT_MATERIAL,
-                prefix: true,
-            }))
 
         return fulltextSearch.value
             .search(search, {
