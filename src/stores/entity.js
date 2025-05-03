@@ -13,6 +13,10 @@ import {
     mergeMaterialsWithPlanTemplates,
     mergeMetalsWithOres
 } from "@/utils/config/merge.js";
+import MiniSearch from 'minisearch';
+import {makeMaterialsDocuments, makeMetalsDocuments, makeOresDocuments} from "@/utils/config/fulltext.js";
+import {FULLTEXT_CAT_MATERIAL} from "@/constants/fulltext.js";
+import RECEIPT from "@/constants/receipt.js";
 
 export const useEntityStore = defineStore('entity', () => {
     const forging = ref(null);
@@ -23,12 +27,17 @@ export const useEntityStore = defineStore('entity', () => {
     const isReady = ref(false);
     const loading = ref(false);
     const error = ref(false);
+    const fulltextSearch = ref(null);
 
     /**
      * @type {ComputedRef<Material[]>}
      */
     const materials = computed(() => {
         return Object.entries(materialMap.value).map(([, material]) => material);
+    });
+
+    const materialsWithPlans = computed(() => {
+        return materials.value.filter(material => material.receipt === RECEIPT.PLAN);
     });
 
     /**
@@ -54,12 +63,28 @@ export const useEntityStore = defineStore('entity', () => {
             materialMap.value = mapMaterialsConfig(configs.materials);
             metalMap.value = mapMetalsConfig(configs.metals);
             oreMap.value = mapOresConfig(configs.ores);
-            oreMap.value = mapOresConfig(configs.ores);
             imageMap.value = mapImagesConfig(configs.images);
 
             mergeMetalsWithOres(metalMap.value, oreMap.value);
             mergeMaterialsWithMaterials(materialMap.value);
             mergeMaterialsWithPlanTemplates(materialMap.value, forging.value.planTemplates);
+
+            const graphemeSegmenter = Intl.Segmenter && new Intl.Segmenter('ru');
+            const wordSegmenter = Intl.Segmenter && new Intl.Segmenter('ru', {granularity: 'word'});
+
+            fulltextSearch.value = new MiniSearch({
+                fields: ['name', 'originalName'],
+                storeFields: ['category', 'object'],
+                processTerm: term => term.toLowerCase(),
+                searchOptions: {
+                    processTerm: term => term.toLowerCase(),
+                }
+            });
+            fulltextSearch.value.addAll([
+                ...makeMaterialsDocuments(materialMap.value),
+                ...makeMetalsDocuments(metalMap.value),
+                ...makeOresDocuments(oreMap.value),
+            ]);
 
             isReady.value = true;
         } catch (ex) {
@@ -69,10 +94,47 @@ export const useEntityStore = defineStore('entity', () => {
         loading.value = false;
     }
 
+    /**
+     * Search material
+     * @param {string} search
+     * @return {Material[]}
+     */
+    function searchMaterials(search) {
+        search = search.trim();
+        if (!search.length) {
+            return [];
+        }
+
+        console.log(fulltextSearch.value
+            .search(search, {
+                filter: result => result.category === FULLTEXT_CAT_MATERIAL,
+                prefix: true,
+            }))
+
+        return fulltextSearch.value
+            .search(search, {
+                filter: result => result.category === FULLTEXT_CAT_MATERIAL,
+                prefix: true,
+            })
+            .map(result => result.object);
+    }
+
+    /**
+     * Search material
+     * @param {string} search
+     * @return {Material[]}
+     */
+    function searchMaterialsWithPlans(search) {
+        const searchResult = searchMaterials(search);
+
+        return searchResult.filter(material => material.receipt === RECEIPT.PLAN);
+    }
+
     return {
         forging,
         materialMap,
         materials,
+        materialsWithPlans,
         metalMap,
         imageMap,
         metals,
@@ -82,5 +144,7 @@ export const useEntityStore = defineStore('entity', () => {
         loading,
         error,
         loadFromConfigs,
+        searchMaterials,
+        searchMaterialsWithPlans,
     };
 });

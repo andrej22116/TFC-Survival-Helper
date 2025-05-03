@@ -1,6 +1,6 @@
 <script setup>
 import {useEntityStore} from "@/stores/entity.js";
-import {computed, ref} from "vue";
+import {computed, ref, defineModel} from "vue";
 import RECEIPT from "@/constants/receipt.js";
 import PlanRecipe from "@/components/recipe/PlanRecipe/PlanRecipe.vue";
 
@@ -10,6 +10,7 @@ if (!entityStore.isReady && !entityStore.loading && !entityStore.error) {
 }
 
 const activeMaterial = ref(null);
+const searchInput = defineModel();
 function setActiveMaterial(material) {
     activeMaterial.value = activeMaterial.value !== material ? material : null;
 }
@@ -19,31 +20,40 @@ const planableMaterials = computed(() => {
         return [];
     }
 
-    return entityStore.materials.filter(material => material.receipt === RECEIPT.PLAN)
-        .map(material => {
-            const sourceMaterial = material.sourceMaterial;
-            return {
-                material: sourceMaterial,
-                plans: activeMaterial?.value?.key === material.key
-                    ? [
-                        material.getPlan(-4),
-                        material.getPlan(-3),
-                        material.getPlan(-2),
-                        material.getPlan(-1),
-                        material.getPlan(),
-                        material.getPlan(1),
-                        material.getPlan(2),
-                        material.getPlan(3),
-                        material.getPlan(4),
-                    ]
-                    : [material.getPlan()],
-                result: material,
-            }
-        });
+    let planableMaterials = searchInput?.value?.length > 0
+        ? entityStore.searchMaterialsWithPlans(searchInput.value || '')
+        : entityStore.materialsWithPlans;
+
+    if (!planableMaterials.length) {
+        planableMaterials = entityStore.materialsWithPlans;
+    }
+
+    return planableMaterials.map(material => {
+        const sourceMaterial = material.sourceMaterial;
+        return {
+            material: sourceMaterial,
+            plans: activeMaterial?.value?.key === material.key
+                ? [
+                    material.getPlan(-2),
+                    material.getPlan(-1),
+                    material.getPlan(),
+                    material.getPlan(1),
+                    material.getPlan(2),
+                ]
+                : [material.getPlan()],
+            result: material,
+        }
+    });
 });
 </script>
 
 <template>
+    <div class="plan-search">
+        <span>Поиск: </span>
+        <input type="text" v-model="searchInput">
+        <button @click="searchInput = ''">&#x2715;</button>
+    </div>
+
     <div class="plan-container">
         <PlanRecipe v-for="recipe of planableMaterials"
                     :material="recipe.material"
