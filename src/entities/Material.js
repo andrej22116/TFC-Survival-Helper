@@ -30,6 +30,8 @@ export default class Material {
         this.material = material;
         this.images = Object.fromEntries(mappedMetals);
         this.metals = Object.keys(this.images);
+
+        this.builtPlans = {};
     }
 
     setSourceMaterial(material) {
@@ -70,6 +72,12 @@ export default class Material {
      * @return {Plan|null}
      */
     getPlan(startOffset = 0) {
-        return this.planTemplate.build(startOffset);
+        if (this.builtPlans[startOffset]) {
+            return this.builtPlans[startOffset];
+        }
+
+        this.builtPlans[startOffset] =  this.planTemplate.build(startOffset);
+
+        return this.builtPlans[startOffset];
     }
 }
