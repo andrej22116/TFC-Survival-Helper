@@ -302,6 +302,31 @@
             "entry": 0,
             "material": "sheet",
             "actions": ["bend", "bend", "punch"]
+        },
+        "shark_cage_armor_fragment": {
+            "entry": 0,
+            "material": "sheet",
+            "actions": ["shrink", "bend", "draw"]
+        },
+        "shark_cage_armor_head": {
+            "entry": 0,
+            "material": "shark_cage_armor_double_fragment",
+            "actions": ["bend", "bend", "hit"]
+        },
+        "shark_cage_armor_chest_plate": {
+            "entry": 0,
+            "material": "shark_cage_armor_double_fragment",
+            "actions": ["upset", "hit", "hit"]
+        },
+        "shark_cage_armor_greaves": {
+            "entry": 0,
+            "material": "shark_cage_armor_double_fragment",
+            "actions": [["bend", "draw", "hit"]]
+        },
+        "shark_cage_armor_boots": {
+            "entry": 0,
+            "material": "shark_cage_armor_fragment",
+            "actions": ["shrink" ,"bend", "bend"]
         }
     }
 }

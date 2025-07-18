@@ -1475,5 +1475,95 @@
                 }
             }
         ]
+    },
+    "shark_cage_armor_fragment": {
+        "name": "Фрагмент акульей клетки",
+        "originalName": "Shark cage armor: fragment",
+        "receipt": "plan",
+        "material": "sheet",
+        "metals": [
+            {
+                "metal": "bismuth",
+                "image": {
+                    "source": "self",
+                    "path": "/materials/shark_cage_armor/segment_1.png"
+                }
+            }
+        ]
+    },
+    "shark_cage_armor_double_fragment": {
+        "name": "Двойной фрагмент акульей клетки",
+        "originalName": "Shark cage armor: double fragment",
+        "receipt": "weld",
+        "material": "sheet",
+        "metals": [
+            {
+                "metal": "bismuth",
+                "image": {
+                    "source": "self",
+                    "path": "/materials/shark_cage_armor/segment_2.png"
+                }
+            }
+        ]
+    },
+    "shark_cage_armor_head": {
+        "name": "Головная часть клетки (недоделанная)",
+        "originalName": "Shark cage armor: unfinished head",
+        "receipt": "plan",
+        "material": "shark_cage_armor_double_fragment",
+        "metals": [
+            {
+                "metal": "bismuth",
+                "image": {
+                    "source": "self",
+                    "path": "/materials/shark_cage_armor/helmet_unfinished.png"
+                }
+            }
+        ]
+    },
+    "shark_cage_armor_chest_plate": {
+        "name": "Грудная часть клетки (недоделанная)",
+        "originalName": "Shark cage armor: unfinished chest plate",
+        "receipt": "plan",
+        "material": "shark_cage_armor_double_fragment",
+        "metals": [
+            {
+                "metal": "bismuth",
+                "image": {
+                    "source": "self",
+                    "path": "/materials/shark_cage_armor/chestplate_unfinished.png"
+                }
+            }
+        ]
+    },
+    "shark_cage_armor_greaves": {
+        "name": "Нижняя часть клетки (недоделанная)",
+        "originalName": "Shark cage armor: unfinished greaves",
+        "receipt": "plan",
+        "material": "shark_cage_armor_double_fragment",
+        "metals": [
+            {
+                "metal": "bismuth",
+                "image": {
+                    "source": "self",
+                    "path": "/materials/shark_cage_armor/greaves_unfinished.png"
+                }
+            }
+        ]
+    },
+    "shark_cage_armor_boots": {
+        "name": "Ножная часть клетки (недоделанная)",
+        "originalName": "Shark cage armor: unfinished boots",
+        "receipt": "plan",
+        "material": "shark_cage_armor_fragment",
+        "metals": [
+            {
+                "metal": "bismuth",
+                "image": {
+                    "source": "self",
+                    "path": "/materials/shark_cage_armor/boots_unfinished.png"
+                }
+            }
+        ]
     }
 }
