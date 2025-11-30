@@ -327,6 +327,16 @@
             "entry": 0,
             "material": "shark_cage_armor_fragment",
             "actions": ["shrink" ,"bend", "bend"]
+        },
+        "rim": {
+            "entry": 0,
+            "material": "ingot",
+            "actions": ["bend" ,"draw", "draw"]
+        },
+        "nails": {
+            "entry": 0,
+            "material": "ingot",
+            "actions": ["upset" ,"punch", "draw"]
         }
     }
 }

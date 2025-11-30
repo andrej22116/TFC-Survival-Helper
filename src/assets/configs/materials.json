@@ -1565,5 +1565,47 @@
                 }
             }
         ]
+    },
+    "rim": {
+        "name": "Большой обод",
+        "originalName": "Rim",
+        "receipt": "plan",
+        "material": "ingot",
+        "templateImg": {
+            "source": null,
+            "path": "/materials/rim/template.png"
+        },
+        "metals": [
+            "copper",
+            "bronze",
+            "bismuth_bronze",
+            "black_bronze",
+            "wrought_iron",
+            "steel",
+            "black_steel",
+            "blue_steel",
+            "red_steel"
+        ]
+    },
+    "nails": {
+        "name": "Гвозди",
+        "originalName": "Nails",
+        "receipt": "plan",
+        "material": "ingot",
+        "templateImg": {
+            "source": null,
+            "path": "/materials/nails/template.png"
+        },
+        "metals": [
+            "copper",
+            "bronze",
+            "bismuth_bronze",
+            "black_bronze",
+            "wrought_iron",
+            "steel",
+            "black_steel",
+            "blue_steel",
+            "red_steel"
+        ]
     }
 }
